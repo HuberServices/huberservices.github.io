@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transparent Navbar</title>
+    <!-- Add Bootstrap and jQuery (if needed) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        /* Basic styling for the navbar */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: transparent; /* Initial transparent background */
+            transition: background-color 0.3s ease; /* Smooth transition effect */
+            z-index: 1000; /* Ensure the navbar appears above other content */
+        }
+        .navbar.scrolled {
+            background-color: #333; /* Solid background color when scrolled */
+        }
+        /* Additional styles for your navigation links */
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        /* Add more styles as needed */
+    </style>
+    <script>
+        // Add a scroll event listener to toggle the navbar background
+        window.addEventListener("scroll", function() {
+            const navbar = document.querySelector(".navbar");
+            if (window.scrollY > 50) {
+                navbar.classList.add("scrolled");
+            } else {
+                navbar.classList.remove("scrolled");
+            }
+        });
+    </script>
+     <style>
+        body {
+            background-color: #22323e; /* Dark blue color */
+            color: #ffffff; /* Text color (white) */
+            margin: 0;
+            padding: 20;
+            font-family: Georgia, 'Times New Roman', Times, serif,
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            position: relative; top: 75px;
+        }
+        .video {
+            width: 50%; /* Adjust the width as needed */
+        }
+        .text {
+            width: 50%;
+            padding: 20px;
+            background-color: #22323e; /* Light gray background for text */
+            font-size: x-large;
+        }
+        p {
+        line-height: 1.5; /* Adjust as needed */
+    }
+    </style>
+     <title>Contact Form</title>
+     <style>
+         .form-container {
+             background-color: #fffff0;
+             border: 5px solid #045D;
+             padding: 30px;
+             width: 80%; /* Adjust as needed */
+             margin: 0 auto; /* Center horizontally */
+             position: relative; top: 75px;
+         }
+     </style>
+     <style>
+         .form-container1 {
+             background-color: #045D5D;
+             border: 0px solid #045D;
+             padding: 30px;
+             width: 81.25%; /* Adjust as needed */
+             margin: 0 auto; /* Center horizontally */
+         }
+     </style>
+     
+     <style>
+        /* Basic styling for the footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        /* Additional styles for links or other elements within the footer */
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+    
+    
+</head>
+<body> 
+
+    
+    <div class="navbar" id="myNavbar">
+        <a href="https://hubertree.com">Home</a>
+        <a href="https://hubertree.com/products/pages/about">About Us</a>
+        <a href="https://hubertree.com/products/pages/privacy-policy">Privacy Policy</a>
+        <a href="https://hubertree.com/products/pages/terms">Terms and Conditions</a>
+        <a href="https://hubertree.com/products/pages/returns">Return Policy</a>
+        <a href="https://hubertree.com/products/pages/shipping-payment">Shipping and Payments</a>
+        <a href="https://hubertree.com/products/">Store</a>
+        <img src="https://dhgf5mcbrms62.cloudfront.net/96389261/header-ykyLhx/TTGD06H-600x600.webp" 
+     width="125" 
+     height="125"
+     />
+        <!-- Add more navigation links -->
+    </div>    
+    
+
+    
+    <div class="container">
+        <div class="text">
+            
+            <h1 style="font-size: 2em;">How Dangerous could it be?</h1>
+            <p>
+                Huber Tree Service showcases their expertise in tree removal through a series of clips demonstrating precision felling techniques and the use of cranes for particularly challenging jobs. These videos highlight the skill and care taken to safely and efficiently remove trees, even in the most complex situations. With a focus on safety and precision, Huber Tree Service exemplifies the meticulous planning and execution required in modern arboriculture. Whether it's a towering pine in a tight space or a hazardous tree threatening structures, their use of advanced equipment and methods, like cranes, ensures that every removal is performed with the utmost care and professionalism.
+            </p>
+        </div>
+        <div class="video">
+            <iframe width="420" height="760" src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F386436543760223%2F&show_text=false&width=267&t=0"></iframe>
+        </div>
+    </div>
+    <br><br>
+    <center>
+    <h1 style="front-size: 2em;">Our Contact Form</h1>
+    </center>
+
+        
+        <div class="form-container">
+            <!-- Your form will go here -->
+            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+            <script>
+                hbspt.forms.create({
+                    region: "na1",
+                    portalId: "46192882",
+                    formId: "a83cf606-37c2-4a19-b024-86e20a42adef"
+                });
+            </script>
+        </div>
+    <!-- Your page content goes here -->
+    <div class="content">
+        <h1></h1>
+        <p></p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Huber Tree Service. All rights reserved.</p>
+        <p>Huntsville, AL 35801</p>
+        <p><a href="tel:+12565270607">Call us: (256) 527 0607</a></p>
+        <p><a href="mailto:huber@hubertree.com">Email: huber@hubertree.com</a></p>
+    </footer>
+</body>
+</html>
