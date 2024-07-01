@@ -1,0 +1,2011 @@
+<!DOCTYPE html>
+<html class="js" lang="en" style="zoom: 0.66">
+  <head>
+    <title>Dropshipt Shopify Store</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="rWblOmY3OF4pLxHsF5OuBbZwUocb3up0WIq89r5sqQaO2qZBS6_b5XTOeaJykOug6Z1jJ_-4C9LNDxZb1G1mjA" />
+    
+
+    <link rel="stylesheet" href="/api/assets/application-d17f9a00711ba5ad21b3b91dec264178b2adeed0b81b01062def6e801aa7c55f.css" data-turbo-track="reload" />
+    <script src="/api/assets/application-47dc837bb25f5d5f8ca41aa2f67696783f91eb1cece0fcdd0cc8e519ca56f1d2.js" defer="defer"></script>
+
+    <style data-shopify="">
+      :root,
+      .color-background-1 {
+        --color-background: 253, 251, 247;
+        --gradient-background: rgba(250,249,246
+      , 1);
+        --color-button-label: 0, 0, 0;
+        --color-foreground: 46, 42, 57;
+        --color-background-contrast: 228, 200, 145;
+        --color-shadow: 46, 42, 57;
+        --color-button: 155,4,112
+			;
+        --color-button-text: 253, 251, 247;
+        --color-secondary-button: 253, 251, 247;
+        --color-secondary-button-text: 46, 42, 57;
+        --color-link: 46, 42, 57;
+        --color-badge-foreground: 46, 42, 57;
+        --color-badge-background: 253, 251, 247;
+        --color-badge-border: 46, 42, 57;
+        --payment-terms-background-color: rgb(253 251 247);
+      }
+
+
+      .color-background-2 {
+        --color-background: 237, 255, 167;
+        --gradient-background: radial-gradient(rgba(255, 229, 229, 1), rgba(255, 224, 218, 1) 25%, rgba(215, 255, 137, 1) 100%);
+        --color-foreground: 46, 42, 57;
+        --color-background-contrast: 211, 255, 39;
+        --color-shadow: 46, 42, 57;
+        --color-button: 46, 42, 57;
+        --color-button-text: 237, 255, 167;
+        --color-secondary-button: 237, 255, 167;
+        --color-secondary-button-text: 46, 42, 57;
+        --color-link: 46, 42, 57;
+        --color-badge-foreground: 46, 42, 57;
+        --color-badge-background: 237, 255, 167;
+        --color-badge-border: 46, 42, 57;
+        --payment-terms-background-color: rgb(237 255 167);
+      }
+
+
+      .color-inverse {
+        --color-background: 46, 42, 57;
+        --gradient-background: rgb(45,41,56
+      );
+        --color-foreground: 253, 251, 247;
+        --color-background-contrast: 58, 53, 72;
+        --color-shadow: 46, 42, 57;
+        --color-button: 253, 251, 247;
+        --color-button-text: 46, 42, 57;
+        --color-secondary-button: 46, 42, 57;
+        --color-secondary-button-text: 253, 251, 247;
+        --color-link: 253, 251, 247;
+        --color-badge-foreground: 253, 251, 247;
+        --color-badge-background: 46, 42, 57;
+        --color-badge-border: 253, 251, 247;
+        --payment-terms-background-color: rgb(46 42 57);
+      }
+
+
+      .color-accent-1 {
+        --color-background: 155, 4, 111;
+        --gradient-background: #9B046F;
+        --color-foreground: 253, 251, 247;
+        --color-background-contrast: 180, 5, 129;
+        --color-shadow: 46, 42, 57;
+        --color-button: 253, 251, 247;
+        --color-button-text: 155, 4, 111;
+        --color-secondary-button: 155, 4, 111;
+        --color-secondary-button-text: 253, 251, 247;
+        --color-link: 253, 251, 247;
+        --color-badge-foreground: 253, 251, 247;
+        --color-badge-background: 155, 4, 111;
+        --color-badge-border: 253, 251, 247;
+        --payment-terms-background-color: rgb(155 4 111);
+      }
+
+
+      .color-accent-2 {
+        --color-background: 155,4,112
+			;
+        --gradient-background: linear-gradient(320deg, rgba(134, 16, 106, 1), rgba(155,4,112
+			, 1) 100%);
+        --color-foreground: 253, 251, 247;
+        --color-background-contrast: 13, 7, 11;
+        --color-shadow: 46, 42, 57;
+        --color-button: 253, 251, 247;
+        --color-button-text: 155,4,112
+			;
+        --color-secondary-button: 155,4,112
+			;
+        --color-secondary-button-text: 253, 251, 247;
+        --color-link: 253, 251, 247;
+        --color-badge-foreground: 253, 251, 247;
+        --color-badge-background: 155,4,112
+			;
+        --color-badge-border: 253, 251, 247;
+        --payment-terms-background-color: rgb(94 54 83);
+      }
+
+
+      body,
+      .color-background-1,
+      .color-background-2,
+      .color-inverse,
+      .color-accent-1,
+      .color-accent-2 {
+        color: rgba(var(--color-foreground), 0.75);
+        /* background-color: rgb(var(--color-background)); */
+      }
+
+      :root {
+        --font-body-family: "Harmonia Sans", sans-serif;
+        --font-body-style: normal;
+        --font-body-weight: 400;
+        --font-body-weight-bold: 700;
+
+        --font-heading-family: "Harmonia Sans", sans-serif;
+        --font-heading-style: normal;
+        --font-heading-weight: 600;
+
+        --font-body-scale: 1.0;
+        --font-heading-scale: 1.3;
+
+        --media-padding: px;
+        --media-border-opacity: 0.1;
+        --media-border-width: 0px;
+        --media-radius: 12px;
+        --media-shadow-opacity: 0.1;
+        --media-shadow-horizontal-offset: 10px;
+        --media-shadow-vertical-offset: 12px;
+        --media-shadow-blur-radius: 20px;
+        --media-shadow-visible: 1;
+
+        --page-width: 120rem;
+        --page-width-margin: 0rem;
+
+        --product-card-image-padding: 0.0rem;
+        --product-card-corner-radius: 1.2rem;
+        --product-card-text-alignment: center;
+        --product-card-border-width: 0.0rem;
+        --product-card-border-opacity: 0.1;
+        --product-card-shadow-opacity: 0.05;
+        --product-card-shadow-visible: 1;
+        --product-card-shadow-horizontal-offset: 1.0rem;
+        --product-card-shadow-vertical-offset: 1.0rem;
+        --product-card-shadow-blur-radius: 3.5rem;
+
+        --collection-card-image-padding: 0.0rem;
+        --collection-card-corner-radius: 1.2rem;
+        --collection-card-text-alignment: center;
+        --collection-card-border-width: 0.0rem;
+        --collection-card-border-opacity: 0.1;
+        --collection-card-shadow-opacity: 0.05;
+        --collection-card-shadow-visible: 1;
+        --collection-card-shadow-horizontal-offset: 1.0rem;
+        --collection-card-shadow-vertical-offset: 1.0rem;
+        --collection-card-shadow-blur-radius: 3.5rem;
+
+        --blog-card-image-padding: 0.0rem;
+        --blog-card-corner-radius: 1.2rem;
+        --blog-card-text-alignment: center;
+        --blog-card-border-width: 0.0rem;
+        --blog-card-border-opacity: 0.1;
+        --blog-card-shadow-opacity: 0.05;
+        --blog-card-shadow-visible: 1;
+        --blog-card-shadow-horizontal-offset: 1.0rem;
+        --blog-card-shadow-vertical-offset: 1.0rem;
+        --blog-card-shadow-blur-radius: 3.5rem;
+
+        --badge-corner-radius: 2.0rem;
+
+        --popup-border-width: 1px;
+        --popup-border-opacity: 0.1;
+        --popup-corner-radius: 22px;
+        --popup-shadow-opacity: 0.1;
+        --popup-shadow-horizontal-offset: 10px;
+        --popup-shadow-vertical-offset: 12px;
+        --popup-shadow-blur-radius: 20px;
+
+        --drawer-border-width: 1px;
+        --drawer-border-opacity: 0.1;
+        --drawer-shadow-opacity: 0.0;
+        --drawer-shadow-horizontal-offset: 0px;
+        --drawer-shadow-vertical-offset: 4px;
+        --drawer-shadow-blur-radius: 5px;
+
+        --spacing-sections-desktop: 36px;
+        --spacing-sections-mobile: 25px;
+
+        --grid-desktop-vertical-spacing: 40px;
+        --grid-desktop-horizontal-spacing: 40px;
+        --grid-mobile-vertical-spacing: 20px;
+        --grid-mobile-horizontal-spacing: 20px;
+
+        --text-boxes-border-opacity: 0.1;
+        --text-boxes-border-width: 0px;
+        --text-boxes-radius: 24px;
+        --text-boxes-shadow-opacity: 0.0;
+        --text-boxes-shadow-visible: 0;
+        --text-boxes-shadow-horizontal-offset: 10px;
+        --text-boxes-shadow-vertical-offset: 12px;
+        --text-boxes-shadow-blur-radius: 20px;
+
+        --buttons-radius: 10px;
+        --buttons-radius-outset: 11px;
+        --buttons-border-width: 1px;
+        --buttons-border-opacity: 0.55;
+        --buttons-shadow-opacity: 0.0;
+        --buttons-shadow-visible: 0;
+        --buttons-shadow-horizontal-offset: 0px;
+        --buttons-shadow-vertical-offset: 4px;
+        --buttons-shadow-blur-radius: 5px;
+        --buttons-border-offset: 0.3px;
+
+        --inputs-radius: 10px;
+        --inputs-border-width: 1px;
+        --inputs-border-opacity: 0.55;
+        --inputs-shadow-opacity: 0.0;
+        --inputs-shadow-horizontal-offset: 0px;
+        --inputs-margin-offset: 0px;
+        --inputs-shadow-vertical-offset: 4px;
+        --inputs-shadow-blur-radius: 5px;
+        --inputs-radius-outset: 11px;
+
+        --variant-pills-radius: 10px;
+        --variant-pills-border-width: 0px;
+        --variant-pills-border-opacity: 0.1;
+        --variant-pills-shadow-opacity: 0.0;
+        --variant-pills-shadow-horizontal-offset: 0px;
+        --variant-pills-shadow-vertical-offset: 4px;
+        --variant-pills-shadow-blur-radius: 5px;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: inherit;
+      }
+
+      html {
+        box-sizing: border-box;
+        font-size: calc(var(--font-body-scale) * 62.5%);
+        height: 100%;
+      }
+
+      body {
+        display: grid;
+        grid-template-rows: auto auto 1fr auto;
+        grid-template-columns: 100%;
+        min-height: 100%;
+        margin: 0;
+        font-size: 1.5rem;
+        letter-spacing: 0.06rem;
+        line-height: calc(1 + 0.8 / var(--font-body-scale));
+        font-family: var(--font-body-family);
+        font-style: var(--font-body-style);
+        font-weight: var(--font-body-weight);
+      }
+
+      @media screen and (min-width: 750px) {
+        body {
+          font-size: 1.6rem;
+        }
+      }
+    </style>
+
+  </head>
+  <body class="gradient" style="margin: 0 auto">
+    <div id="shopify-section-sections--21728143016253__announcement-bar"
+  class="shopify-section shopify-section-group-header-group announcement-bar-section" bis_skin_checked="1">
+  <div class="utility-bar color-inverse gradient utility-bar--bottom-border" bis_skin_checked="1">
+    <div class="page-width utility-bar__grid" bis_skin_checked="1">
+      <div class="announcement-bar" role="region" aria-label="Announcement" bis_skin_checked="1">
+        <p class="announcement-bar__message h5">
+          <span>Free Shipping For 24 Hours Only</span></p>
+      </div>
+      <div class="localization-wrapper" bis_skin_checked="1">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="shopify-section-sections--22217372696893__header"
+  class="shopify-section shopify-section-group-header-group section-header">
+
+  <style>
+    header-drawer {
+      justify-self: start;
+      margin-left: -1.2rem;
+    }
+
+    @media screen and (min-width: 990px) {
+      header-drawer {
+        display: none;
+      }
+    }
+
+    .menu-drawer-container {
+      display: flex;
+    }
+
+    .list-menu {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .list-menu--inline {
+      display: inline-flex;
+      flex-wrap: wrap;
+    }
+
+    summary.list-menu__item {
+      padding-right: 2.7rem;
+    }
+
+    .list-menu__item {
+      display: flex;
+      align-items: center;
+      line-height: calc(1 + 0.3 / var(--font-body-scale));
+    }
+
+    .list-menu__item--link {
+      text-decoration: none;
+      padding-bottom: 1rem;
+      padding-top: 1rem;
+      line-height: calc(1 + 0.8 / var(--font-body-scale));
+    }
+
+    @media screen and (min-width: 750px) {
+      .list-menu__item--link {
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
+      }
+    }
+  </style>
+  <style data-shopify="">
+    .header {
+      padding: 10px 3rem 10px 3rem;
+    }
+
+    .section-header {
+      position: sticky;
+      /* This is for fixing a Safari z-index issue. PR #2147 */
+      margin-bottom: 18px;
+    }
+
+    @media screen and (min-width: 750px) {
+      .section-header {
+        margin-bottom: 24px;
+      }
+    }
+
+    @media screen and (min-width: 990px) {
+      .header {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+    }
+  </style>
+  <svg xmlns="http://www.w3.org/2000/svg" class="hidden">
+    <symbol id="icon-search" viewBox="0 0 18 19" fill="none">
+      <path fill-rule="evenodd" clip-rule="evenodd"
+        d="M11.03 11.68A5.784 5.784 0 112.85 3.5a5.784 5.784 0 018.18 8.18zm.26 1.12a6.78 6.78 0 11.72-.7l5.4 5.4a.5.5 0 11-.71.7l-5.41-5.4z"
+        fill="currentColor"></path>
+    </symbol>
+
+    <symbol id="icon-reset" class="icon icon-close" fill="none" viewBox="0 0 18 18" stroke="currentColor">
+      <circle r="8.5" cy="9" cx="9" stroke-opacity="0.2"></circle>
+      <path d="M6.82972 6.82915L1.17193 1.17097" stroke-linecap="round" stroke-linejoin="round"
+        transform="translate(5 5)"></path>
+      <path d="M1.22896 6.88502L6.77288 1.11523" stroke-linecap="round" stroke-linejoin="round"
+        transform="translate(5 5)"></path>
+    </symbol>
+
+    <symbol id="icon-close" class="icon icon-close" fill="none" viewBox="0 0 18 17">
+      <path
+        d="M.865 15.978a.5.5 0 00.707.707l7.433-7.431 7.579 7.282a.501.501 0 00.846-.37.5.5 0 00-.153-.351L9.712 8.546l7.417-7.416a.5.5 0 10-.707-.708L8.991 7.853 1.413.573a.5.5 0 10-.693.72l7.563 7.268-7.418 7.417z"
+        fill="currentColor">
+      </path>
+    </symbol>
+  </svg>
+  <sticky-header data-sticky-type="on-scroll-up" class="header-wrapper color-background-1 gradient">
+    <header class="header header--middle-center header--mobile-center page-width header--has-menu">
+      <nav class="header__inline-menu">
+        <ul class="list-menu list-menu--inline" role="list">
+          <li>
+            <a
+              id="HeaderMenu-home"
+              href="/api/themes/home?&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FSae59fd5ed5954058ba203dfe83bd2333f.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FSfa91d1ad4ce24c28b9bb05745e24d789h.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FS189c74c0285e4a3d93bbda2f6c3a94c8h.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FScfb0531bf1aa4c2a9b82874f3008db69R.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FSf5adea47518347fc984756a9f09c2566k.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FSa8600dd2afbc4bef91b052e66db598ae8.jpg_160x160.jpg_.webp
+      &amp;&amp;product_page_texts[]=Unleash+Limitless+Power&amp;product_page_texts[]=Tired+of+running+out+of+power+on+your+outdoor+adventures%3F+Get+the+XMSJ+Portable+Power+Station%2C+the+ultimate+solution+to+never+being+without+power+again.+With+its+256Wh+capacity+and+6-port+powerhouse%2C+you%E2%80%99ll+have+limitless+power+to+keep+all+your+devices+charged+and+ready+for+any+adventure.&amp;product_page_texts[]=Portable+Powerhouse+Awakens%21&amp;product_page_texts[]=The+Portable+Powerhouse+Awakens%21+Dominate+any+power+outage+with+the+upgraded+Anker+521+Portable+Power+Station.+With+its+advanced+LiFePO4+battery+and+6-port+power+delivery%2C+this+solar+generator+is+hands+down+the+best+in+class.+Don%27t+be+caught+powerless+in+an+emergency+-+make+sure+you+have+the+ultimate+backup+power+solution.&amp;product_page_texts[]=Unleash+Power+Anywhere&amp;product_page_texts[]=Unleash+power+anywhere+with+the+XMSJ+Portable+Power+Station.+Its+upgraded+LiFePO4+battery+provides+256Wh+of+power%2C+making+it+the+ultimate+solution+for+staying+powered+up+on+the+go.&amp;product_page_texts[]=Unleash+Power+Everywhere&amp;product_page_texts[]=Introducing+an+energy+revolution%21+Meet+the+ultimate+power+solution+that%27s+capturing+hearts+and+minds.+Customers+can%27t+contain+their+excitement+and+satisfaction+with+this+product.+Why%3F+Because+it+offers+unparalleled+power+wherever+you+go.+Say+goodbye+to+dead+batteries+and+hello+to+unlimited+power.+Unleash+power+everywhere+with+this+game-changing+innovation.%0A++++++
+      &amp;primary_color=45%2C41%2C56%0A++++++
+      &amp;secondary_color=155%2C4%2C112%0A%09%09%09
+      &amp;background_color=250%2C249%2C246%0A++++++
+      &amp;home_headline=Ultimate+Power+256%3A+Unleash+Portable+Energy%0A++++++
+      &amp;home_blurb=Introducing+Ultimate+Power+256%3A+the+ultimate+solution+for+portable+energy+on+the+go.+With+its+upgraded+LiFePO4+battery+and+6-port+PowerHouse%2C+this+256Wh+solar+generator+delivers+unmatched+power+and+convenience%2C+making+it+the+perfect+companion+for+outdoor+adventures%2C+emergencies%2C+and+charging+multiple+devices+simultaneously.%0A++++++
+      &amp;title=Ultimate+Power+256%0A++++++
+      &amp;description=Introducing+the+XMSJ+Portable+Power+Station.+Upgrade+your+power+needs+with+this+advanced+solar+generator.+With+a+256Wh+battery+capacity+and+6+ports%2C+this+powerhouse+delivers+300W+%28peak+600W%29+of+clean%2C+renewable+energy.+Perfect+for+camping%2C+emergencies%2C+or+remote+work.+Take+charge+and+never+be+without+power+again.%0A++++++
+      &amp;shop_brand=PowerPro+Store%0A++++++
+      &amp;price=369.97%0A++++++
+      &amp;compare_at_price=739.94%0A++++++
+      &amp;logo=https%3A%2F%2Fdropshipt-app.dropshipt.io%2Fapi%2Ftmp_files%2Fc0cb3445f69e5ab85557_Screenshot+2024-06-30+041127.png%0A%09%09%09
+      &amp;zoom=0.66
+      &amp;tagline=Unleash+Unstoppable+Power+Anywhere+with+Ultimate+Power+256%0A%09%09%09
+      &amp;review=Experience+unstoppable+power+on+the+go+with+the+Ultimate+Power+256.+Unleash+300W+of+pure+energy.+Conquer+any+adventure.+-+Michael+Anderson+%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85%0A++++
+    "
+              class="header__menu-item list-menu__item link link--text focus-inset"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              id="HeaderMenu-shop-now"
+              href="/api/themes/product?&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FSae59fd5ed5954058ba203dfe83bd2333f.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FSfa91d1ad4ce24c28b9bb05745e24d789h.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FS189c74c0285e4a3d93bbda2f6c3a94c8h.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FScfb0531bf1aa4c2a9b82874f3008db69R.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FSf5adea47518347fc984756a9f09c2566k.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FSa8600dd2afbc4bef91b052e66db598ae8.jpg_160x160.jpg_.webp
+      &amp;&amp;product_page_texts[]=Unleash+Limitless+Power&amp;product_page_texts[]=Tired+of+running+out+of+power+on+your+outdoor+adventures%3F+Get+the+XMSJ+Portable+Power+Station%2C+the+ultimate+solution+to+never+being+without+power+again.+With+its+256Wh+capacity+and+6-port+powerhouse%2C+you%E2%80%99ll+have+limitless+power+to+keep+all+your+devices+charged+and+ready+for+any+adventure.&amp;product_page_texts[]=Portable+Powerhouse+Awakens%21&amp;product_page_texts[]=The+Portable+Powerhouse+Awakens%21+Dominate+any+power+outage+with+the+upgraded+Anker+521+Portable+Power+Station.+With+its+advanced+LiFePO4+battery+and+6-port+power+delivery%2C+this+solar+generator+is+hands+down+the+best+in+class.+Don%27t+be+caught+powerless+in+an+emergency+-+make+sure+you+have+the+ultimate+backup+power+solution.&amp;product_page_texts[]=Unleash+Power+Anywhere&amp;product_page_texts[]=Unleash+power+anywhere+with+the+XMSJ+Portable+Power+Station.+Its+upgraded+LiFePO4+battery+provides+256Wh+of+power%2C+making+it+the+ultimate+solution+for+staying+powered+up+on+the+go.&amp;product_page_texts[]=Unleash+Power+Everywhere&amp;product_page_texts[]=Introducing+an+energy+revolution%21+Meet+the+ultimate+power+solution+that%27s+capturing+hearts+and+minds.+Customers+can%27t+contain+their+excitement+and+satisfaction+with+this+product.+Why%3F+Because+it+offers+unparalleled+power+wherever+you+go.+Say+goodbye+to+dead+batteries+and+hello+to+unlimited+power.+Unleash+power+everywhere+with+this+game-changing+innovation.%0A++++++
+      &amp;primary_color=45%2C41%2C56%0A++++++
+      &amp;secondary_color=155%2C4%2C112%0A%09%09%09
+      &amp;background_color=250%2C249%2C246%0A++++++
+      &amp;home_headline=Ultimate+Power+256%3A+Unleash+Portable+Energy%0A++++++
+      &amp;home_blurb=Introducing+Ultimate+Power+256%3A+the+ultimate+solution+for+portable+energy+on+the+go.+With+its+upgraded+LiFePO4+battery+and+6-port+PowerHouse%2C+this+256Wh+solar+generator+delivers+unmatched+power+and+convenience%2C+making+it+the+perfect+companion+for+outdoor+adventures%2C+emergencies%2C+and+charging+multiple+devices+simultaneously.%0A++++++
+      &amp;title=Ultimate+Power+256%0A++++++
+      &amp;description=Introducing+the+XMSJ+Portable+Power+Station.+Upgrade+your+power+needs+with+this+advanced+solar+generator.+With+a+256Wh+battery+capacity+and+6+ports%2C+this+powerhouse+delivers+300W+%28peak+600W%29+of+clean%2C+renewable+energy.+Perfect+for+camping%2C+emergencies%2C+or+remote+work.+Take+charge+and+never+be+without+power+again.%0A++++++
+      &amp;shop_brand=PowerPro+Store%0A++++++
+      &amp;price=369.97%0A++++++
+      &amp;compare_at_price=739.94%0A++++++
+      &amp;logo=https%3A%2F%2Fdropshipt-app.dropshipt.io%2Fapi%2Ftmp_files%2Fc0cb3445f69e5ab85557_Screenshot+2024-06-30+041127.png%0A%09%09%09
+      &amp;zoom=0.66
+      &amp;tagline=Unleash+Unstoppable+Power+Anywhere+with+Ultimate+Power+256%0A%09%09%09
+      &amp;review=Experience+unstoppable+power+on+the+go+with+the+Ultimate+Power+256.+Unleash+300W+of+pure+energy.+Conquer+any+adventure.+-+Michael+Anderson+%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85%0A++++
+    "
+              class="header__menu-item list-menu__item link link--text focus-inset"
+            >
+              Shop Now
+            </a>
+          </li>
+          <li>
+            <a
+              id="HeaderMenu-contact"
+              href="/api/themes/contact?&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FSae59fd5ed5954058ba203dfe83bd2333f.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FSfa91d1ad4ce24c28b9bb05745e24d789h.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FS189c74c0285e4a3d93bbda2f6c3a94c8h.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FScfb0531bf1aa4c2a9b82874f3008db69R.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FSf5adea47518347fc984756a9f09c2566k.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FSa8600dd2afbc4bef91b052e66db598ae8.jpg_160x160.jpg_.webp
+      &amp;&amp;product_page_texts[]=Unleash+Limitless+Power&amp;product_page_texts[]=Tired+of+running+out+of+power+on+your+outdoor+adventures%3F+Get+the+XMSJ+Portable+Power+Station%2C+the+ultimate+solution+to+never+being+without+power+again.+With+its+256Wh+capacity+and+6-port+powerhouse%2C+you%E2%80%99ll+have+limitless+power+to+keep+all+your+devices+charged+and+ready+for+any+adventure.&amp;product_page_texts[]=Portable+Powerhouse+Awakens%21&amp;product_page_texts[]=The+Portable+Powerhouse+Awakens%21+Dominate+any+power+outage+with+the+upgraded+Anker+521+Portable+Power+Station.+With+its+advanced+LiFePO4+battery+and+6-port+power+delivery%2C+this+solar+generator+is+hands+down+the+best+in+class.+Don%27t+be+caught+powerless+in+an+emergency+-+make+sure+you+have+the+ultimate+backup+power+solution.&amp;product_page_texts[]=Unleash+Power+Anywhere&amp;product_page_texts[]=Unleash+power+anywhere+with+the+XMSJ+Portable+Power+Station.+Its+upgraded+LiFePO4+battery+provides+256Wh+of+power%2C+making+it+the+ultimate+solution+for+staying+powered+up+on+the+go.&amp;product_page_texts[]=Unleash+Power+Everywhere&amp;product_page_texts[]=Introducing+an+energy+revolution%21+Meet+the+ultimate+power+solution+that%27s+capturing+hearts+and+minds.+Customers+can%27t+contain+their+excitement+and+satisfaction+with+this+product.+Why%3F+Because+it+offers+unparalleled+power+wherever+you+go.+Say+goodbye+to+dead+batteries+and+hello+to+unlimited+power.+Unleash+power+everywhere+with+this+game-changing+innovation.%0A++++++
+      &amp;primary_color=45%2C41%2C56%0A++++++
+      &amp;secondary_color=155%2C4%2C112%0A%09%09%09
+      &amp;background_color=250%2C249%2C246%0A++++++
+      &amp;home_headline=Ultimate+Power+256%3A+Unleash+Portable+Energy%0A++++++
+      &amp;home_blurb=Introducing+Ultimate+Power+256%3A+the+ultimate+solution+for+portable+energy+on+the+go.+With+its+upgraded+LiFePO4+battery+and+6-port+PowerHouse%2C+this+256Wh+solar+generator+delivers+unmatched+power+and+convenience%2C+making+it+the+perfect+companion+for+outdoor+adventures%2C+emergencies%2C+and+charging+multiple+devices+simultaneously.%0A++++++
+      &amp;title=Ultimate+Power+256%0A++++++
+      &amp;description=Introducing+the+XMSJ+Portable+Power+Station.+Upgrade+your+power+needs+with+this+advanced+solar+generator.+With+a+256Wh+battery+capacity+and+6+ports%2C+this+powerhouse+delivers+300W+%28peak+600W%29+of+clean%2C+renewable+energy.+Perfect+for+camping%2C+emergencies%2C+or+remote+work.+Take+charge+and+never+be+without+power+again.%0A++++++
+      &amp;shop_brand=PowerPro+Store%0A++++++
+      &amp;price=369.97%0A++++++
+      &amp;compare_at_price=739.94%0A++++++
+      &amp;logo=https%3A%2F%2Fdropshipt-app.dropshipt.io%2Fapi%2Ftmp_files%2Fc0cb3445f69e5ab85557_Screenshot+2024-06-30+041127.png%0A%09%09%09
+      &amp;zoom=0.66
+      &amp;tagline=Unleash+Unstoppable+Power+Anywhere+with+Ultimate+Power+256%0A%09%09%09
+      &amp;review=Experience+unstoppable+power+on+the+go+with+the+Ultimate+Power+256.+Unleash+300W+of+pure+energy.+Conquer+any+adventure.+-+Michael+Anderson+%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85%0A++++
+    "
+              class="header__menu-item list-menu__item link link--text focus-inset"
+            >
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <a href="/api/themes/home?&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FSae59fd5ed5954058ba203dfe83bd2333f.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FSfa91d1ad4ce24c28b9bb05745e24d789h.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FS189c74c0285e4a3d93bbda2f6c3a94c8h.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FScfb0531bf1aa4c2a9b82874f3008db69R.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FSf5adea47518347fc984756a9f09c2566k.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FSa8600dd2afbc4bef91b052e66db598ae8.jpg_160x160.jpg_.webp
+      &amp;&amp;product_page_texts[]=Unleash+Limitless+Power&amp;product_page_texts[]=Tired+of+running+out+of+power+on+your+outdoor+adventures%3F+Get+the+XMSJ+Portable+Power+Station%2C+the+ultimate+solution+to+never+being+without+power+again.+With+its+256Wh+capacity+and+6-port+powerhouse%2C+you%E2%80%99ll+have+limitless+power+to+keep+all+your+devices+charged+and+ready+for+any+adventure.&amp;product_page_texts[]=Portable+Powerhouse+Awakens%21&amp;product_page_texts[]=The+Portable+Powerhouse+Awakens%21+Dominate+any+power+outage+with+the+upgraded+Anker+521+Portable+Power+Station.+With+its+advanced+LiFePO4+battery+and+6-port+power+delivery%2C+this+solar+generator+is+hands+down+the+best+in+class.+Don%27t+be+caught+powerless+in+an+emergency+-+make+sure+you+have+the+ultimate+backup+power+solution.&amp;product_page_texts[]=Unleash+Power+Anywhere&amp;product_page_texts[]=Unleash+power+anywhere+with+the+XMSJ+Portable+Power+Station.+Its+upgraded+LiFePO4+battery+provides+256Wh+of+power%2C+making+it+the+ultimate+solution+for+staying+powered+up+on+the+go.&amp;product_page_texts[]=Unleash+Power+Everywhere&amp;product_page_texts[]=Introducing+an+energy+revolution%21+Meet+the+ultimate+power+solution+that%27s+capturing+hearts+and+minds.+Customers+can%27t+contain+their+excitement+and+satisfaction+with+this+product.+Why%3F+Because+it+offers+unparalleled+power+wherever+you+go.+Say+goodbye+to+dead+batteries+and+hello+to+unlimited+power.+Unleash+power+everywhere+with+this+game-changing+innovation.%0A++++++
+      &amp;primary_color=45%2C41%2C56%0A++++++
+      &amp;secondary_color=155%2C4%2C112%0A%09%09%09
+      &amp;background_color=250%2C249%2C246%0A++++++
+      &amp;home_headline=Ultimate+Power+256%3A+Unleash+Portable+Energy%0A++++++
+      &amp;home_blurb=Introducing+Ultimate+Power+256%3A+the+ultimate+solution+for+portable+energy+on+the+go.+With+its+upgraded+LiFePO4+battery+and+6-port+PowerHouse%2C+this+256Wh+solar+generator+delivers+unmatched+power+and+convenience%2C+making+it+the+perfect+companion+for+outdoor+adventures%2C+emergencies%2C+and+charging+multiple+devices+simultaneously.%0A++++++
+      &amp;title=Ultimate+Power+256%0A++++++
+      &amp;description=Introducing+the+XMSJ+Portable+Power+Station.+Upgrade+your+power+needs+with+this+advanced+solar+generator.+With+a+256Wh+battery+capacity+and+6+ports%2C+this+powerhouse+delivers+300W+%28peak+600W%29+of+clean%2C+renewable+energy.+Perfect+for+camping%2C+emergencies%2C+or+remote+work.+Take+charge+and+never+be+without+power+again.%0A++++++
+      &amp;shop_brand=PowerPro+Store%0A++++++
+      &amp;price=369.97%0A++++++
+      &amp;compare_at_price=739.94%0A++++++
+      &amp;logo=https%3A%2F%2Fdropshipt-app.dropshipt.io%2Fapi%2Ftmp_files%2Fc0cb3445f69e5ab85557_Screenshot+2024-06-30+041127.png%0A%09%09%09
+      &amp;zoom=0.66
+      &amp;tagline=Unleash+Unstoppable+Power+Anywhere+with+Ultimate+Power+256%0A%09%09%09
+      &amp;review=Experience+unstoppable+power+on+the+go+with+the+Ultimate+Power+256.+Unleash+300W+of+pure+energy.+Conquer+any+adventure.+-+Michael+Anderson+%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85%0A++++
+    " class="header__heading-link link link--text focus-inset">
+          <div class="header__heading-logo-wrapper" bis_skin_checked="1">
+            <img src="https://dropshipt-app.dropshipt.io/api/tmp_files/c0cb3445f69e5ab85557_Screenshot 2024-06-30 041127.png
+			" alt="store-new-name-new" width="70">
+          </div>
+      </a>
+      <div class="header__icons">
+        <div class="desktop-localization-wrapper">
+        </div>
+
+
+        <details-modal class="header__search">
+          <details>
+            <summary class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle"
+              aria-haspopup="dialog" aria-label="Search" role="button">
+              <span>
+                <svg class="modal__toggle-open icon icon-search" aria-hidden="true" focusable="false">
+                  <use href="#icon-search">
+                  </use>
+                </svg>
+                <svg class="modal__toggle-close icon icon-close" aria-hidden="true" focusable="false">
+                  <use href="#icon-close">
+                  </use>
+                </svg>
+              </span>
+            </summary>
+            <div class="search-modal modal__content gradient" role="dialog" aria-modal="true" aria-label="Search">
+              <div class="modal-overlay"></div>
+              <div class="search-modal__content search-modal__content-bottom" tabindex="-1">
+                <predictive-search class="search-modal__form" data-loading-text="Loading...">
+                  <form action="/api/themes/home?&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FSae59fd5ed5954058ba203dfe83bd2333f.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FSfa91d1ad4ce24c28b9bb05745e24d789h.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FS189c74c0285e4a3d93bbda2f6c3a94c8h.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FScfb0531bf1aa4c2a9b82874f3008db69R.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FSf5adea47518347fc984756a9f09c2566k.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FSa8600dd2afbc4bef91b052e66db598ae8.jpg_160x160.jpg_.webp
+      &amp;&amp;product_page_texts[]=Unleash+Limitless+Power&amp;product_page_texts[]=Tired+of+running+out+of+power+on+your+outdoor+adventures%3F+Get+the+XMSJ+Portable+Power+Station%2C+the+ultimate+solution+to+never+being+without+power+again.+With+its+256Wh+capacity+and+6-port+powerhouse%2C+you%E2%80%99ll+have+limitless+power+to+keep+all+your+devices+charged+and+ready+for+any+adventure.&amp;product_page_texts[]=Portable+Powerhouse+Awakens%21&amp;product_page_texts[]=The+Portable+Powerhouse+Awakens%21+Dominate+any+power+outage+with+the+upgraded+Anker+521+Portable+Power+Station.+With+its+advanced+LiFePO4+battery+and+6-port+power+delivery%2C+this+solar+generator+is+hands+down+the+best+in+class.+Don%27t+be+caught+powerless+in+an+emergency+-+make+sure+you+have+the+ultimate+backup+power+solution.&amp;product_page_texts[]=Unleash+Power+Anywhere&amp;product_page_texts[]=Unleash+power+anywhere+with+the+XMSJ+Portable+Power+Station.+Its+upgraded+LiFePO4+battery+provides+256Wh+of+power%2C+making+it+the+ultimate+solution+for+staying+powered+up+on+the+go.&amp;product_page_texts[]=Unleash+Power+Everywhere&amp;product_page_texts[]=Introducing+an+energy+revolution%21+Meet+the+ultimate+power+solution+that%27s+capturing+hearts+and+minds.+Customers+can%27t+contain+their+excitement+and+satisfaction+with+this+product.+Why%3F+Because+it+offers+unparalleled+power+wherever+you+go.+Say+goodbye+to+dead+batteries+and+hello+to+unlimited+power.+Unleash+power+everywhere+with+this+game-changing+innovation.%0A++++++
+      &amp;primary_color=45%2C41%2C56%0A++++++
+      &amp;secondary_color=155%2C4%2C112%0A%09%09%09
+      &amp;background_color=250%2C249%2C246%0A++++++
+      &amp;home_headline=Ultimate+Power+256%3A+Unleash+Portable+Energy%0A++++++
+      &amp;home_blurb=Introducing+Ultimate+Power+256%3A+the+ultimate+solution+for+portable+energy+on+the+go.+With+its+upgraded+LiFePO4+battery+and+6-port+PowerHouse%2C+this+256Wh+solar+generator+delivers+unmatched+power+and+convenience%2C+making+it+the+perfect+companion+for+outdoor+adventures%2C+emergencies%2C+and+charging+multiple+devices+simultaneously.%0A++++++
+      &amp;title=Ultimate+Power+256%0A++++++
+      &amp;description=Introducing+the+XMSJ+Portable+Power+Station.+Upgrade+your+power+needs+with+this+advanced+solar+generator.+With+a+256Wh+battery+capacity+and+6+ports%2C+this+powerhouse+delivers+300W+%28peak+600W%29+of+clean%2C+renewable+energy.+Perfect+for+camping%2C+emergencies%2C+or+remote+work.+Take+charge+and+never+be+without+power+again.%0A++++++
+      &amp;shop_brand=PowerPro+Store%0A++++++
+      &amp;price=369.97%0A++++++
+      &amp;compare_at_price=739.94%0A++++++
+      &amp;logo=https%3A%2F%2Fdropshipt-app.dropshipt.io%2Fapi%2Ftmp_files%2Fc0cb3445f69e5ab85557_Screenshot+2024-06-30+041127.png%0A%09%09%09
+      &amp;zoom=0.66
+      &amp;tagline=Unleash+Unstoppable+Power+Anywhere+with+Ultimate+Power+256%0A%09%09%09
+      &amp;review=Experience+unstoppable+power+on+the+go+with+the+Ultimate+Power+256.+Unleash+300W+of+pure+energy.+Conquer+any+adventure.+-+Michael+Anderson+%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85%0A++++
+    " method="get" role="search" class="search search-modal__form" onclick="return false;">
+                    <div class="field">
+                      <input class="search__input field__input" id="Search-In-Modal" type="search" name="q" value=""
+                        placeholder="Search" role="combobox" aria-expanded="false" aria-owns="predictive-search-results"
+                        aria-controls="predictive-search-results" aria-haspopup="listbox" aria-autocomplete="list"
+                        autocorrect="off" autocomplete="off" autocapitalize="off" spellcheck="false">
+                      <label class="field__label" for="Search-In-Modal">Search</label>
+                      <input type="hidden" name="options[prefix]" value="last">
+                      <button type="reset" class="reset__button field__button hidden" aria-label="Clear search term">
+                        <svg class="icon icon-close" aria-hidden="true" focusable="false">
+                          <use xlink:href="#icon-reset">
+                          </use>
+                        </svg>
+                      </button>
+                      <button class="search__button field__button" aria-label="Search">
+                        <svg class="icon icon-search" aria-hidden="true" focusable="false">
+                          <use href="#icon-search">
+                          </use>
+                        </svg>
+                      </button>
+                    </div>
+                    <div class="predictive-search predictive-search--header" tabindex="-1" data-predictive-search="">
+                      <div class="predictive-search__loading-state">
+                        <svg aria-hidden="true" focusable="false" class="spinner" viewBox="0 0 66 66"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                        </svg>
+                      </div>
+                    </div>
+
+                    <span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span>
+                  </form>
+                </predictive-search><button type="button"
+                  class="search-modal__close-button modal__close-button link link--text focus-inset" aria-label="Close">
+                  <svg class="icon icon-close" aria-hidden="true" focusable="false">
+                    <use href="#icon-close">
+                    </use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </details>
+        </details-modal>
+
+        <a href="/api/themes/cart?&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FSae59fd5ed5954058ba203dfe83bd2333f.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FSfa91d1ad4ce24c28b9bb05745e24d789h.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FS189c74c0285e4a3d93bbda2f6c3a94c8h.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FScfb0531bf1aa4c2a9b82874f3008db69R.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FSf5adea47518347fc984756a9f09c2566k.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FSa8600dd2afbc4bef91b052e66db598ae8.jpg_160x160.jpg_.webp
+      &amp;&amp;product_page_texts[]=Unleash+Limitless+Power&amp;product_page_texts[]=Tired+of+running+out+of+power+on+your+outdoor+adventures%3F+Get+the+XMSJ+Portable+Power+Station%2C+the+ultimate+solution+to+never+being+without+power+again.+With+its+256Wh+capacity+and+6-port+powerhouse%2C+you%E2%80%99ll+have+limitless+power+to+keep+all+your+devices+charged+and+ready+for+any+adventure.&amp;product_page_texts[]=Portable+Powerhouse+Awakens%21&amp;product_page_texts[]=The+Portable+Powerhouse+Awakens%21+Dominate+any+power+outage+with+the+upgraded+Anker+521+Portable+Power+Station.+With+its+advanced+LiFePO4+battery+and+6-port+power+delivery%2C+this+solar+generator+is+hands+down+the+best+in+class.+Don%27t+be+caught+powerless+in+an+emergency+-+make+sure+you+have+the+ultimate+backup+power+solution.&amp;product_page_texts[]=Unleash+Power+Anywhere&amp;product_page_texts[]=Unleash+power+anywhere+with+the+XMSJ+Portable+Power+Station.+Its+upgraded+LiFePO4+battery+provides+256Wh+of+power%2C+making+it+the+ultimate+solution+for+staying+powered+up+on+the+go.&amp;product_page_texts[]=Unleash+Power+Everywhere&amp;product_page_texts[]=Introducing+an+energy+revolution%21+Meet+the+ultimate+power+solution+that%27s+capturing+hearts+and+minds.+Customers+can%27t+contain+their+excitement+and+satisfaction+with+this+product.+Why%3F+Because+it+offers+unparalleled+power+wherever+you+go.+Say+goodbye+to+dead+batteries+and+hello+to+unlimited+power.+Unleash+power+everywhere+with+this+game-changing+innovation.%0A++++++
+      &amp;primary_color=45%2C41%2C56%0A++++++
+      &amp;secondary_color=155%2C4%2C112%0A%09%09%09
+      &amp;background_color=250%2C249%2C246%0A++++++
+      &amp;home_headline=Ultimate+Power+256%3A+Unleash+Portable+Energy%0A++++++
+      &amp;home_blurb=Introducing+Ultimate+Power+256%3A+the+ultimate+solution+for+portable+energy+on+the+go.+With+its+upgraded+LiFePO4+battery+and+6-port+PowerHouse%2C+this+256Wh+solar+generator+delivers+unmatched+power+and+convenience%2C+making+it+the+perfect+companion+for+outdoor+adventures%2C+emergencies%2C+and+charging+multiple+devices+simultaneously.%0A++++++
+      &amp;title=Ultimate+Power+256%0A++++++
+      &amp;description=Introducing+the+XMSJ+Portable+Power+Station.+Upgrade+your+power+needs+with+this+advanced+solar+generator.+With+a+256Wh+battery+capacity+and+6+ports%2C+this+powerhouse+delivers+300W+%28peak+600W%29+of+clean%2C+renewable+energy.+Perfect+for+camping%2C+emergencies%2C+or+remote+work.+Take+charge+and+never+be+without+power+again.%0A++++++
+      &amp;shop_brand=PowerPro+Store%0A++++++
+      &amp;price=369.97%0A++++++
+      &amp;compare_at_price=739.94%0A++++++
+      &amp;logo=https%3A%2F%2Fdropshipt-app.dropshipt.io%2Fapi%2Ftmp_files%2Fc0cb3445f69e5ab85557_Screenshot+2024-06-30+041127.png%0A%09%09%09
+      &amp;zoom=0.66
+      &amp;tagline=Unleash+Unstoppable+Power+Anywhere+with+Ultimate+Power+256%0A%09%09%09
+      &amp;review=Experience+unstoppable+power+on+the+go+with+the+Ultimate+Power+256.+Unleash+300W+of+pure+energy.+Conquer+any+adventure.+-+Michael+Anderson+%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85%0A++++
+    " class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble"><svg
+            class="icon icon-cart-empty" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 40 40" fill="none">
+            <path
+              d="m15.75 11.8h-3.16l-.77 11.6a5 5 0 0 0 4.99 5.34h7.38a5 5 0 0 0 4.99-5.33l-.78-11.61zm0 1h-2.22l-.71 10.67a4 4 0 0 0 3.99 4.27h7.38a4 4 0 0 0 4-4.27l-.72-10.67h-2.22v.63a4.75 4.75 0 1 1 -9.5 0zm8.5 0h-7.5v.63a3.75 3.75 0 1 0 7.5 0z"
+              fill="currentColor" fill-rule="evenodd"></path>
+          </svg>
+          <span class="visually-hidden">Cart</span></a>
+      </div>
+    </header>
+  </sticky-header>
+
+  <cart-notification>
+    <div class="cart-notification-wrapper page-width">
+      <div id="cart-notification" class="cart-notification focus-inset color-background-1 gradient" aria-modal="true"
+        aria-label="Item added to your cart" role="dialog" tabindex="-1">
+        <div class="cart-notification__header">
+          <h2 class="cart-notification__heading caption-large text-body"><svg class="icon icon-checkmark"
+              aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 9" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M11.35.643a.5.5 0 01.006.707l-6.77 6.886a.5.5 0 01-.719-.006L.638 4.845a.5.5 0 11.724-.69l2.872 3.011 6.41-6.517a.5.5 0 01.707-.006h-.001z"
+                fill="currentColor"></path>
+            </svg>
+            Item added to your cart
+          </h2>
+          <button type="button" class="cart-notification__close modal__close-button link link--text focus-inset"
+            aria-label="Close">
+            <svg class="icon icon-close" aria-hidden="true" focusable="false">
+              <use href="#icon-close">
+              </use>
+            </svg>
+          </button>
+        </div>
+        <div id="cart-notification-product" class="cart-notification-product"></div>
+        <div class="cart-notification__links">
+          <a href="/cart" id="cart-notification-button" class="button button--secondary button--full-width">View
+            cart</a>
+          <form action="/cart" method="post" id="cart-notification-form">
+            <button class="button button--primary button--full-width" name="checkout">
+              Check out
+            </button>
+          </form>
+          <button type="button" class="link button-label">Continue shopping</button>
+        </div>
+      </div>
+    </div>
+  </cart-notification>
+  <style data-shopify="">
+    .cart-notification {
+      display: none;
+    }
+  </style>
+</div>
+    <style id="shopify-dynamic-checkout">
+  .shopify-payment-button__button--hidden {
+    visibility: hidden;
+  }
+
+  .shopify-payment-button__button {
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 0 0 0 transparent;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    width: 100%;
+    transition: background 0.2s ease-in-out;
+  }
+
+  .shopify-payment-button__button[disabled] {
+    opacity: 0.6;
+    cursor: default;
+  }
+
+  .shopify-payment-button__button--unbranded {
+    background-color: #1990c6;
+    padding: 1em 2em;
+  }
+
+  .shopify-payment-button__button--unbranded:hover:not([disabled]) {
+    background-color: #136f99;
+  }
+
+  .shopify-payment-button__more-options {
+    background: transparent;
+    border: 0 none;
+    cursor: pointer;
+    display: block;
+    font-size: 1em;
+    margin-top: 1em;
+    text-align: center;
+    width: 100%;
+  }
+
+  .shopify-payment-button__more-options:hover:not([disabled]) {
+    text-decoration: underline;
+  }
+
+  .shopify-payment-button__more-options[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  .shopify-payment-button__button--branded {
+    display: flex;
+    flex-direction: column;
+    min-height: 44px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .shopify-payment-button__button--branded .shopify-cleanslate {
+    flex: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .shopify-payment-button__button.button.loading {
+    position: relative;
+    color: transparent;
+  }
+
+  .shopify-payment-button__button.button.loading>.loading-overlay__spinner {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .shopify-payment-button__button.button.loading>.loading-overlay__spinner .spinner {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
+  .button.loading>.loading-overlay__spinner .path {
+    stroke: white;
+  }
+
+  .shopify-payment-button__button .loading-overlay__spinner {
+    width: 1.8rem;
+    display: inline-block;
+  }
+
+  .shopify-payment-button__button .spinner {
+    animation: shopify-rotator 1.4s linear infinite;
+  }
+
+  @keyframes shopify-rotator {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(270deg);
+    }
+  }
+
+  .shopify-payment-button__button .path {
+    stroke-dasharray: 280;
+    stroke-dashoffset: 0;
+    transform-origin: center;
+    stroke: rgb(18, 18, 18);
+    animation: shopify-dash 1.4s ease-in-out infinite;
+  }
+
+  @media screen and (forced-colors: active) {
+    .shopify-payment-button__button .path {
+      stroke: CanvasText;
+    }
+  }
+
+  @keyframes shopify-dash {
+    0% {
+      stroke-dashoffset: 280;
+    }
+
+    50% {
+      stroke-dashoffset: 75;
+      transform: rotate(135deg);
+    }
+
+    100% {
+      stroke-dashoffset: 280;
+      transform: rotate(450deg);
+    }
+  }
+
+  @keyframes walletsLoadingSkeleton {
+    50% {
+      opacity: 1;
+    }
+
+    75% {
+      opacity: 0.5;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .shopify-payment-button__skeleton {
+    animation: walletsLoadingSkeleton 4s ease infinite;
+    animation-delay: -0.168s;
+    background-color: rgb(222, 222, 222);
+    box-sizing: border-box;
+  }
+</style>
+
+<link rel="stylesheet" href="/api/assets/application-d17f9a00711ba5ad21b3b91dec264178b2adeed0b81b01062def6e801aa7c55f.css" data-turbo-track="reload" />
+
+<style>
+  .header {
+    padding: 10px 3rem 10px 3rem;
+  }
+</style>
+
+<main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+  <section id="shopify-section-template--21722663289149__main" class="shopify-section section">
+    <section id="MainProduct-template--21722663289149__main"
+      class="section-template--21722663289149__main-padding gradient color-background-1"
+      data-section="template--21722663289149__main">
+      <style data-shopify="">
+        .section-template--21722663289149__main-padding {
+          padding-top: 18px;
+          padding-bottom: 18px;
+        }
+
+        @media screen and (min-width: 750px) {
+          .section-template--21722663289149__main-padding {
+            padding-top: 24px;
+            padding-bottom: 24px;
+          }
+        }
+      </style>
+      <div class="page-width" bis_skin_checked="1">
+        <div
+          class="product product--medium product--left product--thumbnail_slider product--mobile-hide grid grid--1-col grid--2-col-tablet"
+          bis_skin_checked="1">
+          <div class="grid__item product__media-wrapper" bis_skin_checked="1">
+
+            <media-gallery id="MediaGallery-template--21722663289149__main" role="region" class="product__column-sticky"
+              aria-label="Gallery Viewer" data-desktop-layout="thumbnail_slider">
+              <div id="GalleryStatus-template--21722663289149__main" class="visually-hidden" role="status"
+                bis_skin_checked="1" aria-hidden="true">Image 5 is now available in gallery view</div>
+              <slider-component id="GalleryViewer-template--21722663289149__main" class="slider-mobile-gutter"><a
+                  class="skip-to-content-link button visually-hidden quick-add-hidden"
+                  href="#ProductInfo-template--21722663289149__main">
+                  Skip to product information
+                </a>
+                <ul id="Slider-Gallery-template--21722663289149__main"
+                  class="product__media-list contains-media grid grid--peek list-unstyled slider slider--mobile"
+                  role="presentation">
+
+                  <li id="Slide-template--0"
+                    class="product__media-item grid__item slider__slide scroll-trigger animate--fade-in  is-active "
+                    data-media-id="media-gallery-0" role="presentation">
+
+                    <div
+                      class="product-media-container media-type-image media-fit-contain global-media-settings gradient constrain-height"
+                      style="--ratio: 1.0; --preview-ratio: 1.0;" bis_skin_checked="1">
+                      <noscript>
+                        <div class="product__media media">
+                          <img src="https://ae01.alicdn.com/kf/Sae59fd5ed5954058ba203dfe83bd2333f.jpg_160x160.jpg_.webp" alt="" srcset="https://ae01.alicdn.com/kf/Sae59fd5ed5954058ba203dfe83bd2333f.jpg_160x160.jpg_.webp" width="1946" height="1946"
+                            sizes="(min-width: 1200px) 605px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
+                        </div>
+                      </noscript>
+
+                      <modal-opener class="product__modal-opener product__modal-opener--image no-js-hidden"
+                        data-modal="#ProductModal-template--21722663289149__main">
+                        <span class="product__media-icon motion-reduce quick-add-hidden product__media-icon--lightbox"
+                          aria-hidden="true"><svg aria-hidden="true" focusable="false" class="icon icon-plus" width="19"
+                            height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M4.66724 7.93978C4.66655 7.66364 4.88984 7.43922 5.16598 7.43853L10.6996 7.42464C10.9758 7.42395 11.2002 7.64724 11.2009 7.92339C11.2016 8.19953 10.9783 8.42395 10.7021 8.42464L5.16849 8.43852C4.89235 8.43922 4.66793 8.21592 4.66724 7.93978Z"
+                              fill="currentColor"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M7.92576 4.66463C8.2019 4.66394 8.42632 4.88723 8.42702 5.16337L8.4409 10.697C8.44159 10.9732 8.2183 11.1976 7.94215 11.1983C7.66601 11.199 7.44159 10.9757 7.4409 10.6995L7.42702 5.16588C7.42633 4.88974 7.64962 4.66532 7.92576 4.66463Z"
+                              fill="currentColor"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M12.8324 3.03011C10.1255 0.323296 5.73693 0.323296 3.03011 3.03011C0.323296 5.73693 0.323296 10.1256 3.03011 12.8324C5.73693 15.5392 10.1255 15.5392 12.8324 12.8324C15.5392 10.1256 15.5392 5.73693 12.8324 3.03011ZM2.32301 2.32301C5.42035 -0.774336 10.4421 -0.774336 13.5395 2.32301C16.6101 5.39361 16.6366 10.3556 13.619 13.4588L18.2473 18.0871C18.4426 18.2824 18.4426 18.599 18.2473 18.7943C18.0521 18.9895 17.7355 18.9895 17.5402 18.7943L12.8778 14.1318C9.76383 16.6223 5.20839 16.4249 2.32301 13.5395C-0.774335 10.4421 -0.774335 5.42035 2.32301 2.32301Z"
+                              fill="currentColor"></path>
+                          </svg>
+                        </span>
+                        <div class="loading__spinner hidden" bis_skin_checked="1">
+                          <svg aria-hidden="true" focusable="false" class="spinner" viewBox="0 0 66 66"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                          </svg>
+                        </div>
+                        <div class="product__media media media--transparent" bis_skin_checked="1">
+                          <img src="https://ae01.alicdn.com/kf/Sae59fd5ed5954058ba203dfe83bd2333f.jpg_160x160.jpg_.webp" alt="" srcset="https://ae01.alicdn.com/kf/Sae59fd5ed5954058ba203dfe83bd2333f.jpg_160x160.jpg_.webp" width="1946" height="1946"
+                            class="image-magnify-lightbox"
+                            sizes="(min-width: 1200px) 605px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
+                        </div>
+                        <button class="product__media-toggle quick-add-hidden product__media-zoom-lightbox"
+                          type="button" aria-haspopup="dialog" data-media-id="media-gallery-0">
+                          <span class="visually-hidden">
+                            Open media 1 in modal
+                          </span>
+                        </button>
+                      </modal-opener>
+                    </div>
+                  </li>
+                  <li id="Slide-template--1"
+                    class="product__media-item grid__item slider__slide scroll-trigger animate--fade-in "
+                    data-media-id="media-gallery-1" role="presentation">
+
+                    <div
+                      class="product-media-container media-type-image media-fit-contain global-media-settings gradient constrain-height"
+                      style="--ratio: 1.0; --preview-ratio: 1.0;" bis_skin_checked="1">
+                      <noscript>
+                        <div class="product__media media">
+                          <img src="https://ae01.alicdn.com/kf/Sfa91d1ad4ce24c28b9bb05745e24d789h.jpg_160x160.jpg_.webp" alt="" srcset="https://ae01.alicdn.com/kf/Sfa91d1ad4ce24c28b9bb05745e24d789h.jpg_160x160.jpg_.webp" width="1946" height="1946"
+                            sizes="(min-width: 1200px) 605px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
+                        </div>
+                      </noscript>
+
+                      <modal-opener class="product__modal-opener product__modal-opener--image no-js-hidden"
+                        data-modal="#ProductModal-template--21722663289149__main">
+                        <span class="product__media-icon motion-reduce quick-add-hidden product__media-icon--lightbox"
+                          aria-hidden="true"><svg aria-hidden="true" focusable="false" class="icon icon-plus" width="19"
+                            height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M4.66724 7.93978C4.66655 7.66364 4.88984 7.43922 5.16598 7.43853L10.6996 7.42464C10.9758 7.42395 11.2002 7.64724 11.2009 7.92339C11.2016 8.19953 10.9783 8.42395 10.7021 8.42464L5.16849 8.43852C4.89235 8.43922 4.66793 8.21592 4.66724 7.93978Z"
+                              fill="currentColor"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M7.92576 4.66463C8.2019 4.66394 8.42632 4.88723 8.42702 5.16337L8.4409 10.697C8.44159 10.9732 8.2183 11.1976 7.94215 11.1983C7.66601 11.199 7.44159 10.9757 7.4409 10.6995L7.42702 5.16588C7.42633 4.88974 7.64962 4.66532 7.92576 4.66463Z"
+                              fill="currentColor"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M12.8324 3.03011C10.1255 0.323296 5.73693 0.323296 3.03011 3.03011C0.323296 5.73693 0.323296 10.1256 3.03011 12.8324C5.73693 15.5392 10.1255 15.5392 12.8324 12.8324C15.5392 10.1256 15.5392 5.73693 12.8324 3.03011ZM2.32301 2.32301C5.42035 -0.774336 10.4421 -0.774336 13.5395 2.32301C16.6101 5.39361 16.6366 10.3556 13.619 13.4588L18.2473 18.0871C18.4426 18.2824 18.4426 18.599 18.2473 18.7943C18.0521 18.9895 17.7355 18.9895 17.5402 18.7943L12.8778 14.1318C9.76383 16.6223 5.20839 16.4249 2.32301 13.5395C-0.774335 10.4421 -0.774335 5.42035 2.32301 2.32301Z"
+                              fill="currentColor"></path>
+                          </svg>
+                        </span>
+                        <div class="loading__spinner hidden" bis_skin_checked="1">
+                          <svg aria-hidden="true" focusable="false" class="spinner" viewBox="0 0 66 66"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                          </svg>
+                        </div>
+                        <div class="product__media media media--transparent" bis_skin_checked="1">
+                          <img src="https://ae01.alicdn.com/kf/Sfa91d1ad4ce24c28b9bb05745e24d789h.jpg_160x160.jpg_.webp" alt="" srcset="https://ae01.alicdn.com/kf/Sfa91d1ad4ce24c28b9bb05745e24d789h.jpg_160x160.jpg_.webp" width="1946" height="1946"
+                            class="image-magnify-lightbox"
+                            sizes="(min-width: 1200px) 605px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
+                        </div>
+                        <button class="product__media-toggle quick-add-hidden product__media-zoom-lightbox"
+                          type="button" aria-haspopup="dialog" data-media-id="media-gallery-1">
+                          <span class="visually-hidden">
+                            Open media 1 in modal
+                          </span>
+                        </button>
+                      </modal-opener>
+                    </div>
+                  </li>
+                  <li id="Slide-template--2"
+                    class="product__media-item grid__item slider__slide scroll-trigger animate--fade-in "
+                    data-media-id="media-gallery-2" role="presentation">
+
+                    <div
+                      class="product-media-container media-type-image media-fit-contain global-media-settings gradient constrain-height"
+                      style="--ratio: 1.0; --preview-ratio: 1.0;" bis_skin_checked="1">
+                      <noscript>
+                        <div class="product__media media">
+                          <img src="https://ae01.alicdn.com/kf/S189c74c0285e4a3d93bbda2f6c3a94c8h.jpg_160x160.jpg_.webp" alt="" srcset="https://ae01.alicdn.com/kf/S189c74c0285e4a3d93bbda2f6c3a94c8h.jpg_160x160.jpg_.webp" width="1946" height="1946"
+                            sizes="(min-width: 1200px) 605px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
+                        </div>
+                      </noscript>
+
+                      <modal-opener class="product__modal-opener product__modal-opener--image no-js-hidden"
+                        data-modal="#ProductModal-template--21722663289149__main">
+                        <span class="product__media-icon motion-reduce quick-add-hidden product__media-icon--lightbox"
+                          aria-hidden="true"><svg aria-hidden="true" focusable="false" class="icon icon-plus" width="19"
+                            height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M4.66724 7.93978C4.66655 7.66364 4.88984 7.43922 5.16598 7.43853L10.6996 7.42464C10.9758 7.42395 11.2002 7.64724 11.2009 7.92339C11.2016 8.19953 10.9783 8.42395 10.7021 8.42464L5.16849 8.43852C4.89235 8.43922 4.66793 8.21592 4.66724 7.93978Z"
+                              fill="currentColor"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M7.92576 4.66463C8.2019 4.66394 8.42632 4.88723 8.42702 5.16337L8.4409 10.697C8.44159 10.9732 8.2183 11.1976 7.94215 11.1983C7.66601 11.199 7.44159 10.9757 7.4409 10.6995L7.42702 5.16588C7.42633 4.88974 7.64962 4.66532 7.92576 4.66463Z"
+                              fill="currentColor"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M12.8324 3.03011C10.1255 0.323296 5.73693 0.323296 3.03011 3.03011C0.323296 5.73693 0.323296 10.1256 3.03011 12.8324C5.73693 15.5392 10.1255 15.5392 12.8324 12.8324C15.5392 10.1256 15.5392 5.73693 12.8324 3.03011ZM2.32301 2.32301C5.42035 -0.774336 10.4421 -0.774336 13.5395 2.32301C16.6101 5.39361 16.6366 10.3556 13.619 13.4588L18.2473 18.0871C18.4426 18.2824 18.4426 18.599 18.2473 18.7943C18.0521 18.9895 17.7355 18.9895 17.5402 18.7943L12.8778 14.1318C9.76383 16.6223 5.20839 16.4249 2.32301 13.5395C-0.774335 10.4421 -0.774335 5.42035 2.32301 2.32301Z"
+                              fill="currentColor"></path>
+                          </svg>
+                        </span>
+                        <div class="loading__spinner hidden" bis_skin_checked="1">
+                          <svg aria-hidden="true" focusable="false" class="spinner" viewBox="0 0 66 66"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                          </svg>
+                        </div>
+                        <div class="product__media media media--transparent" bis_skin_checked="1">
+                          <img src="https://ae01.alicdn.com/kf/S189c74c0285e4a3d93bbda2f6c3a94c8h.jpg_160x160.jpg_.webp" alt="" srcset="https://ae01.alicdn.com/kf/S189c74c0285e4a3d93bbda2f6c3a94c8h.jpg_160x160.jpg_.webp" width="1946" height="1946"
+                            class="image-magnify-lightbox"
+                            sizes="(min-width: 1200px) 605px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
+                        </div>
+                        <button class="product__media-toggle quick-add-hidden product__media-zoom-lightbox"
+                          type="button" aria-haspopup="dialog" data-media-id="media-gallery-2">
+                          <span class="visually-hidden">
+                            Open media 1 in modal
+                          </span>
+                        </button>
+                      </modal-opener>
+                    </div>
+                  </li>
+                  <li id="Slide-template--3"
+                    class="product__media-item grid__item slider__slide scroll-trigger animate--fade-in "
+                    data-media-id="media-gallery-3" role="presentation">
+
+                    <div
+                      class="product-media-container media-type-image media-fit-contain global-media-settings gradient constrain-height"
+                      style="--ratio: 1.0; --preview-ratio: 1.0;" bis_skin_checked="1">
+                      <noscript>
+                        <div class="product__media media">
+                          <img src="https://ae01.alicdn.com/kf/Scfb0531bf1aa4c2a9b82874f3008db69R.jpg_160x160.jpg_.webp" alt="" srcset="https://ae01.alicdn.com/kf/Scfb0531bf1aa4c2a9b82874f3008db69R.jpg_160x160.jpg_.webp" width="1946" height="1946"
+                            sizes="(min-width: 1200px) 605px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
+                        </div>
+                      </noscript>
+
+                      <modal-opener class="product__modal-opener product__modal-opener--image no-js-hidden"
+                        data-modal="#ProductModal-template--21722663289149__main">
+                        <span class="product__media-icon motion-reduce quick-add-hidden product__media-icon--lightbox"
+                          aria-hidden="true"><svg aria-hidden="true" focusable="false" class="icon icon-plus" width="19"
+                            height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M4.66724 7.93978C4.66655 7.66364 4.88984 7.43922 5.16598 7.43853L10.6996 7.42464C10.9758 7.42395 11.2002 7.64724 11.2009 7.92339C11.2016 8.19953 10.9783 8.42395 10.7021 8.42464L5.16849 8.43852C4.89235 8.43922 4.66793 8.21592 4.66724 7.93978Z"
+                              fill="currentColor"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M7.92576 4.66463C8.2019 4.66394 8.42632 4.88723 8.42702 5.16337L8.4409 10.697C8.44159 10.9732 8.2183 11.1976 7.94215 11.1983C7.66601 11.199 7.44159 10.9757 7.4409 10.6995L7.42702 5.16588C7.42633 4.88974 7.64962 4.66532 7.92576 4.66463Z"
+                              fill="currentColor"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M12.8324 3.03011C10.1255 0.323296 5.73693 0.323296 3.03011 3.03011C0.323296 5.73693 0.323296 10.1256 3.03011 12.8324C5.73693 15.5392 10.1255 15.5392 12.8324 12.8324C15.5392 10.1256 15.5392 5.73693 12.8324 3.03011ZM2.32301 2.32301C5.42035 -0.774336 10.4421 -0.774336 13.5395 2.32301C16.6101 5.39361 16.6366 10.3556 13.619 13.4588L18.2473 18.0871C18.4426 18.2824 18.4426 18.599 18.2473 18.7943C18.0521 18.9895 17.7355 18.9895 17.5402 18.7943L12.8778 14.1318C9.76383 16.6223 5.20839 16.4249 2.32301 13.5395C-0.774335 10.4421 -0.774335 5.42035 2.32301 2.32301Z"
+                              fill="currentColor"></path>
+                          </svg>
+                        </span>
+                        <div class="loading__spinner hidden" bis_skin_checked="1">
+                          <svg aria-hidden="true" focusable="false" class="spinner" viewBox="0 0 66 66"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                          </svg>
+                        </div>
+                        <div class="product__media media media--transparent" bis_skin_checked="1">
+                          <img src="https://ae01.alicdn.com/kf/Scfb0531bf1aa4c2a9b82874f3008db69R.jpg_160x160.jpg_.webp" alt="" srcset="https://ae01.alicdn.com/kf/Scfb0531bf1aa4c2a9b82874f3008db69R.jpg_160x160.jpg_.webp" width="1946" height="1946"
+                            class="image-magnify-lightbox"
+                            sizes="(min-width: 1200px) 605px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
+                        </div>
+                        <button class="product__media-toggle quick-add-hidden product__media-zoom-lightbox"
+                          type="button" aria-haspopup="dialog" data-media-id="media-gallery-3">
+                          <span class="visually-hidden">
+                            Open media 1 in modal
+                          </span>
+                        </button>
+                      </modal-opener>
+                    </div>
+                  </li>
+                  <li id="Slide-template--4"
+                    class="product__media-item grid__item slider__slide scroll-trigger animate--fade-in "
+                    data-media-id="media-gallery-4" role="presentation">
+
+                    <div
+                      class="product-media-container media-type-image media-fit-contain global-media-settings gradient constrain-height"
+                      style="--ratio: 1.0; --preview-ratio: 1.0;" bis_skin_checked="1">
+                      <noscript>
+                        <div class="product__media media">
+                          <img src="https://ae01.alicdn.com/kf/Sf5adea47518347fc984756a9f09c2566k.jpg_160x160.jpg_.webp" alt="" srcset="https://ae01.alicdn.com/kf/Sf5adea47518347fc984756a9f09c2566k.jpg_160x160.jpg_.webp" width="1946" height="1946"
+                            sizes="(min-width: 1200px) 605px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
+                        </div>
+                      </noscript>
+
+                      <modal-opener class="product__modal-opener product__modal-opener--image no-js-hidden"
+                        data-modal="#ProductModal-template--21722663289149__main">
+                        <span class="product__media-icon motion-reduce quick-add-hidden product__media-icon--lightbox"
+                          aria-hidden="true"><svg aria-hidden="true" focusable="false" class="icon icon-plus" width="19"
+                            height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M4.66724 7.93978C4.66655 7.66364 4.88984 7.43922 5.16598 7.43853L10.6996 7.42464C10.9758 7.42395 11.2002 7.64724 11.2009 7.92339C11.2016 8.19953 10.9783 8.42395 10.7021 8.42464L5.16849 8.43852C4.89235 8.43922 4.66793 8.21592 4.66724 7.93978Z"
+                              fill="currentColor"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M7.92576 4.66463C8.2019 4.66394 8.42632 4.88723 8.42702 5.16337L8.4409 10.697C8.44159 10.9732 8.2183 11.1976 7.94215 11.1983C7.66601 11.199 7.44159 10.9757 7.4409 10.6995L7.42702 5.16588C7.42633 4.88974 7.64962 4.66532 7.92576 4.66463Z"
+                              fill="currentColor"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M12.8324 3.03011C10.1255 0.323296 5.73693 0.323296 3.03011 3.03011C0.323296 5.73693 0.323296 10.1256 3.03011 12.8324C5.73693 15.5392 10.1255 15.5392 12.8324 12.8324C15.5392 10.1256 15.5392 5.73693 12.8324 3.03011ZM2.32301 2.32301C5.42035 -0.774336 10.4421 -0.774336 13.5395 2.32301C16.6101 5.39361 16.6366 10.3556 13.619 13.4588L18.2473 18.0871C18.4426 18.2824 18.4426 18.599 18.2473 18.7943C18.0521 18.9895 17.7355 18.9895 17.5402 18.7943L12.8778 14.1318C9.76383 16.6223 5.20839 16.4249 2.32301 13.5395C-0.774335 10.4421 -0.774335 5.42035 2.32301 2.32301Z"
+                              fill="currentColor"></path>
+                          </svg>
+                        </span>
+                        <div class="loading__spinner hidden" bis_skin_checked="1">
+                          <svg aria-hidden="true" focusable="false" class="spinner" viewBox="0 0 66 66"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                          </svg>
+                        </div>
+                        <div class="product__media media media--transparent" bis_skin_checked="1">
+                          <img src="https://ae01.alicdn.com/kf/Sf5adea47518347fc984756a9f09c2566k.jpg_160x160.jpg_.webp" alt="" srcset="https://ae01.alicdn.com/kf/Sf5adea47518347fc984756a9f09c2566k.jpg_160x160.jpg_.webp" width="1946" height="1946"
+                            class="image-magnify-lightbox"
+                            sizes="(min-width: 1200px) 605px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
+                        </div>
+                        <button class="product__media-toggle quick-add-hidden product__media-zoom-lightbox"
+                          type="button" aria-haspopup="dialog" data-media-id="media-gallery-4">
+                          <span class="visually-hidden">
+                            Open media 1 in modal
+                          </span>
+                        </button>
+                      </modal-opener>
+                    </div>
+                  </li>
+                  <li id="Slide-template--5"
+                    class="product__media-item grid__item slider__slide scroll-trigger animate--fade-in "
+                    data-media-id="media-gallery-5" role="presentation">
+
+                    <div
+                      class="product-media-container media-type-image media-fit-contain global-media-settings gradient constrain-height"
+                      style="--ratio: 1.0; --preview-ratio: 1.0;" bis_skin_checked="1">
+                      <noscript>
+                        <div class="product__media media">
+                          <img src="https://ae01.alicdn.com/kf/Sa8600dd2afbc4bef91b052e66db598ae8.jpg_160x160.jpg_.webp" alt="" srcset="https://ae01.alicdn.com/kf/Sa8600dd2afbc4bef91b052e66db598ae8.jpg_160x160.jpg_.webp" width="1946" height="1946"
+                            sizes="(min-width: 1200px) 605px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
+                        </div>
+                      </noscript>
+
+                      <modal-opener class="product__modal-opener product__modal-opener--image no-js-hidden"
+                        data-modal="#ProductModal-template--21722663289149__main">
+                        <span class="product__media-icon motion-reduce quick-add-hidden product__media-icon--lightbox"
+                          aria-hidden="true"><svg aria-hidden="true" focusable="false" class="icon icon-plus" width="19"
+                            height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M4.66724 7.93978C4.66655 7.66364 4.88984 7.43922 5.16598 7.43853L10.6996 7.42464C10.9758 7.42395 11.2002 7.64724 11.2009 7.92339C11.2016 8.19953 10.9783 8.42395 10.7021 8.42464L5.16849 8.43852C4.89235 8.43922 4.66793 8.21592 4.66724 7.93978Z"
+                              fill="currentColor"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M7.92576 4.66463C8.2019 4.66394 8.42632 4.88723 8.42702 5.16337L8.4409 10.697C8.44159 10.9732 8.2183 11.1976 7.94215 11.1983C7.66601 11.199 7.44159 10.9757 7.4409 10.6995L7.42702 5.16588C7.42633 4.88974 7.64962 4.66532 7.92576 4.66463Z"
+                              fill="currentColor"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M12.8324 3.03011C10.1255 0.323296 5.73693 0.323296 3.03011 3.03011C0.323296 5.73693 0.323296 10.1256 3.03011 12.8324C5.73693 15.5392 10.1255 15.5392 12.8324 12.8324C15.5392 10.1256 15.5392 5.73693 12.8324 3.03011ZM2.32301 2.32301C5.42035 -0.774336 10.4421 -0.774336 13.5395 2.32301C16.6101 5.39361 16.6366 10.3556 13.619 13.4588L18.2473 18.0871C18.4426 18.2824 18.4426 18.599 18.2473 18.7943C18.0521 18.9895 17.7355 18.9895 17.5402 18.7943L12.8778 14.1318C9.76383 16.6223 5.20839 16.4249 2.32301 13.5395C-0.774335 10.4421 -0.774335 5.42035 2.32301 2.32301Z"
+                              fill="currentColor"></path>
+                          </svg>
+                        </span>
+                        <div class="loading__spinner hidden" bis_skin_checked="1">
+                          <svg aria-hidden="true" focusable="false" class="spinner" viewBox="0 0 66 66"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                          </svg>
+                        </div>
+                        <div class="product__media media media--transparent" bis_skin_checked="1">
+                          <img src="https://ae01.alicdn.com/kf/Sa8600dd2afbc4bef91b052e66db598ae8.jpg_160x160.jpg_.webp" alt="" srcset="https://ae01.alicdn.com/kf/Sa8600dd2afbc4bef91b052e66db598ae8.jpg_160x160.jpg_.webp" width="1946" height="1946"
+                            class="image-magnify-lightbox"
+                            sizes="(min-width: 1200px) 605px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
+                        </div>
+                        <button class="product__media-toggle quick-add-hidden product__media-zoom-lightbox"
+                          type="button" aria-haspopup="dialog" data-media-id="media-gallery-5">
+                          <span class="visually-hidden">
+                            Open media 1 in modal
+                          </span>
+                        </button>
+                      </modal-opener>
+                    </div>
+                  </li>
+                </ul>
+              </slider-component>
+              <slider-component id="GalleryThumbnails-template--21722663289149__main"
+                class="thumbnail-slider slider-mobile-gutter quick-add-hidden small-hide">
+                <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="Slide left"
+                  aria-controls="GalleryThumbnails-template--21722663289149__main" data-step="1">
+                  <svg aria-hidden="true" focusable="false" class="icon icon-caret" viewBox="0 0 10 6">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+                      fill="currentColor">
+                    </path>
+                  </svg>
+                </button>
+                <ul id="Slider-Thumbnails-template--21722663289149__main"
+                  class="thumbnail-list list-unstyled slider slider--mobile slider--tablet-up">
+                  <li id="Slide-Thumbnails-template-0" class="thumbnail-list__item slider__slide"
+                    data-target="media-gallery-0" data-media-position="1">
+                    <button class="thumbnail global-media-settings global-media-settings--no-shadow"
+                      aria-label="Load image 1 in gallery view"
+                      aria-controls="GalleryViewer-template--21722663289149__main"
+                      aria-describedby="Thumbnail-template--21722663289149__main-1">
+                      <img src="https://ae01.alicdn.com/kf/Sae59fd5ed5954058ba203dfe83bd2333f.jpg_160x160.jpg_.webp" alt="AirGlide Pillow" width="416" height="416" loading="lazy" sizes="(min-width: 1200px) calc((605 - 4rem) / 4),
+                          (min-width: 990px) calc((55.0vw - 4rem) / 4),
+                          (min-width: 750px) calc((100vw - 15rem) / 8),
+                          calc((100vw - 8rem) / 3)" id="media-gallery-0">
+                    </button>
+                  </li>
+                  <li id="Slide-Thumbnails-template-1" class="thumbnail-list__item slider__slide"
+                    data-target="media-gallery-1" data-media-position="1">
+                    <button class="thumbnail global-media-settings global-media-settings--no-shadow"
+                      aria-label="Load image 1 in gallery view"
+                      aria-controls="GalleryViewer-template--21722663289149__main"
+                      aria-describedby="Thumbnail-template--21722663289149__main-1">
+                      <img src="https://ae01.alicdn.com/kf/Sfa91d1ad4ce24c28b9bb05745e24d789h.jpg_160x160.jpg_.webp" alt="AirGlide Pillow" width="416" height="416" loading="lazy" sizes="(min-width: 1200px) calc((605 - 4rem) / 4),
+                          (min-width: 990px) calc((55.0vw - 4rem) / 4),
+                          (min-width: 750px) calc((100vw - 15rem) / 8),
+                          calc((100vw - 8rem) / 3)" id="media-gallery-1">
+                    </button>
+                  </li>
+                  <li id="Slide-Thumbnails-template-2" class="thumbnail-list__item slider__slide"
+                    data-target="media-gallery-2" data-media-position="1">
+                    <button class="thumbnail global-media-settings global-media-settings--no-shadow"
+                      aria-label="Load image 1 in gallery view"
+                      aria-controls="GalleryViewer-template--21722663289149__main"
+                      aria-describedby="Thumbnail-template--21722663289149__main-1">
+                      <img src="https://ae01.alicdn.com/kf/S189c74c0285e4a3d93bbda2f6c3a94c8h.jpg_160x160.jpg_.webp" alt="AirGlide Pillow" width="416" height="416" loading="lazy" sizes="(min-width: 1200px) calc((605 - 4rem) / 4),
+                          (min-width: 990px) calc((55.0vw - 4rem) / 4),
+                          (min-width: 750px) calc((100vw - 15rem) / 8),
+                          calc((100vw - 8rem) / 3)" id="media-gallery-2">
+                    </button>
+                  </li>
+                  <li id="Slide-Thumbnails-template-3" class="thumbnail-list__item slider__slide"
+                    data-target="media-gallery-3" data-media-position="1">
+                    <button class="thumbnail global-media-settings global-media-settings--no-shadow"
+                      aria-label="Load image 1 in gallery view"
+                      aria-controls="GalleryViewer-template--21722663289149__main"
+                      aria-describedby="Thumbnail-template--21722663289149__main-1">
+                      <img src="https://ae01.alicdn.com/kf/Scfb0531bf1aa4c2a9b82874f3008db69R.jpg_160x160.jpg_.webp" alt="AirGlide Pillow" width="416" height="416" loading="lazy" sizes="(min-width: 1200px) calc((605 - 4rem) / 4),
+                          (min-width: 990px) calc((55.0vw - 4rem) / 4),
+                          (min-width: 750px) calc((100vw - 15rem) / 8),
+                          calc((100vw - 8rem) / 3)" id="media-gallery-3">
+                    </button>
+                  </li>
+                  <li id="Slide-Thumbnails-template-4" class="thumbnail-list__item slider__slide"
+                    data-target="media-gallery-4" data-media-position="1">
+                    <button class="thumbnail global-media-settings global-media-settings--no-shadow"
+                      aria-label="Load image 1 in gallery view"
+                      aria-controls="GalleryViewer-template--21722663289149__main"
+                      aria-describedby="Thumbnail-template--21722663289149__main-1">
+                      <img src="https://ae01.alicdn.com/kf/Sf5adea47518347fc984756a9f09c2566k.jpg_160x160.jpg_.webp" alt="AirGlide Pillow" width="416" height="416" loading="lazy" sizes="(min-width: 1200px) calc((605 - 4rem) / 4),
+                          (min-width: 990px) calc((55.0vw - 4rem) / 4),
+                          (min-width: 750px) calc((100vw - 15rem) / 8),
+                          calc((100vw - 8rem) / 3)" id="media-gallery-4">
+                    </button>
+                  </li>
+                  <li id="Slide-Thumbnails-template-5" class="thumbnail-list__item slider__slide"
+                    data-target="media-gallery-5" data-media-position="1">
+                    <button class="thumbnail global-media-settings global-media-settings--no-shadow"
+                      aria-label="Load image 1 in gallery view"
+                      aria-controls="GalleryViewer-template--21722663289149__main"
+                      aria-describedby="Thumbnail-template--21722663289149__main-1">
+                      <img src="https://ae01.alicdn.com/kf/Sa8600dd2afbc4bef91b052e66db598ae8.jpg_160x160.jpg_.webp" alt="AirGlide Pillow" width="416" height="416" loading="lazy" sizes="(min-width: 1200px) calc((605 - 4rem) / 4),
+                          (min-width: 990px) calc((55.0vw - 4rem) / 4),
+                          (min-width: 750px) calc((100vw - 15rem) / 8),
+                          calc((100vw - 8rem) / 3)" id="media-gallery-5">
+                    </button>
+                  </li>
+                </ul>
+                <button type="button" class="slider-button slider-button--next" name="next" aria-label="Slide right"
+                  aria-controls="GalleryThumbnails-template--21722663289149__main" data-step="1">
+                  <svg aria-hidden="true" focusable="false" class="icon icon-caret" viewBox="0 0 10 6">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+                      fill="currentColor">
+                    </path>
+                  </svg>
+                </button>
+              </slider-component>
+            </media-gallery>
+          </div>
+          <div class="product__info-wrapper grid__item scroll-trigger animate--slide-in" bis_skin_checked="1">
+            <product-info id="ProductInfo-template--21722663289149__main" data-section="template--21722663289149__main"
+              data-url="/products/airglide-pillow" class="product__info-container product__column-sticky">
+              <div class="product__title" bis_skin_checked="1">
+                <h1 style="text-align: left">
+                  Ultimate Power 256
+      
+                </h1>
+                <a href="/products/airglide-pillow" class="product__title">
+                  <h2 class="h1">
+                    Ultimate Power 256
+      
+                  </h2>
+                </a>
+              </div>
+              <div class="no-js-hidden" id="price-template--21722663289149__main" role="status" bis_skin_checked="1">
+                <div class="price price--large price--on-sale price--show-badge">
+                  <div class="price__container">
+                    <div class="price__regular">
+                      <span class="visually-hidden visually-hidden--inline">Regular price</span>
+                      <span class="price-item price-item--regular">
+                        $369.97
+       USD
+                      </span>
+                    </div>
+                    <div class="price__sale">
+                      <span class="visually-hidden visually-hidden--inline">Regular price</span>
+                      <span>
+                        <s class="price-item price-item--regular">$739.94
+       USD</s>
+                      </span>
+                      <span class="visually-hidden visually-hidden--inline">
+                        Sale price
+                      </span>
+                      <span class="price-item price-item--sale price-item--last">
+                        $369.97
+       USD
+                      </span>
+                    </div>
+                    <small class="unit-price caption hidden">
+                      <span class="visually-hidden">Unit price</span>
+                      <span class="price-item price-item--last">
+                        <span></span>
+                        <span aria-hidden="true">/</span>
+                        <span class="visually-hidden">&nbsp;per&nbsp;</span>
+                        <span>
+                        </span>
+                      </span>
+                    </small>
+                  </div><span class="badge price__badge-sale color-accent-2">
+                    Sale
+                  </span>
+                  <span class="badge price__badge-sold-out color-inverse">
+                    Sold out
+                  </span>
+                </div>
+              </div>
+              <div class="product__tax caption rte" bis_skin_checked="1">Tax included.
+              </div>
+              <div bis_skin_checked="1">
+                <form method="post" action="/cart/add" id="product-form-installment-template--21722663289149__main"
+                  accept-charset="UTF-8" class="installment caption-large" enctype="multipart/form-data"><input
+                    type="hidden" name="form_type" value="product"><input type="hidden" name="utf8" value="✓"><input
+                    type="hidden" name="id" value="47496118731069">
+                  <input type="hidden" name="product-id" value="8963329622333"></form>
+              </div>
+              <noscript class="product-form__noscript-wrapper-template--21722663289149__main">
+                <div class="product-form__input hidden">
+                  <label class="form__label" for="Variants-template--21722663289149__main">Product variants</label>
+                  <div class="select">
+                    <select name="id" id="Variants-template--21722663289149__main" class="select__select"
+                      form="product-form-template--21722663289149__main">
+                      <option selected="selected" value="47496118731069">Default Title - $0.00</option>
+                    </select>
+                    <svg aria-hidden="true" focusable="false" class="icon icon-caret" viewBox="0 0 10 6">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+                        fill="currentColor">
+                    </svg>
+                  </div>
+                </div>
+              </noscript>
+              <div id="Quantity-Form-template--21722663289149__main" class="product-form__input product-form__quantity"
+                bis_skin_checked="1">
+                <label class="quantity__label form__label" for="Quantity-template--21722663289149__main">
+                  Quantity
+                  <span class="quantity__rules-cart no-js-hidden hidden">
+                    <div style="visibility: hidden;" class="loading__spinner hidden" bis_skin_checked="1">
+                      <svg aria-hidden="true" focusable="false" class="spinner" viewBox="0 0 66 66"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                      </svg>
+                    </div>
+                    <span>(<span class="quantity-cart">0</span> in cart)</span>
+                  </span>
+                </label>
+                <div class="price-per-item__container" bis_skin_checked="1">
+                  <quantity-input class="quantity" data-url="/products/airglide-pillow"
+                    data-section="template--21722663289149__main">
+                    <button class="quantity__button no-js-hidden disabled" name="minus" type="button">
+                      <span class="visually-hidden">Decrease quantity for AirGlide Pillow</span>
+                      <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+                        class="icon icon-minus" fill="none" viewBox="0 0 10 2">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M.5 1C.5.7.7.5 1 .5h8a.5.5 0 110 1H1A.5.5 0 01.5 1z" fill="currentColor">
+                        </path>
+                      </svg>
+
+                    </button>
+                    <input class="quantity__input" type="number" name="quantity"
+                      id="Quantity-template--21722663289149__main" data-cart-quantity="0" data-min="1" min="1" step="1"
+                      value="1" form="product-form-template--21722663289149__main" max="null">
+                    <button class="quantity__button no-js-hidden" name="plus" type="button">
+                      <span class="visually-hidden">Increase quantity for AirGlide Pillow</span>
+                      <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+                        class="icon icon-plus" fill="none" viewBox="0 0 10 10">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M1 4.51a.5.5 0 000 1h3.5l.01 3.5a.5.5 0 001-.01V5.5l3.5-.01a.5.5 0 00-.01-1H5.5L5.49.99a.5.5 0 00-1 .01v3.5l-3.5.01H1z"
+                          fill="currentColor">
+                        </path>
+                      </svg>
+
+                    </button>
+                  </quantity-input>
+                </div>
+                <div class="quantity__rules caption no-js-hidden" id="Quantity-Rules-template--21722663289149__main"
+                  bis_skin_checked="1"></div>
+              </div>
+              <div bis_skin_checked="1">
+                <product-form class="product-form" data-hide-errors="false"
+                  data-section-id="template--21722663289149__main">
+                  <div class="product-form__error-message-wrapper" role="alert" hidden="" bis_skin_checked="1">
+                    <svg aria-hidden="true" focusable="false" class="icon icon-error" viewBox="0 0 13 13">
+                      <circle cx="6.5" cy="6.50049" r="5.5" stroke="white" stroke-width="2"></circle>
+                      <circle cx="6.5" cy="6.5" r="5.5" fill="#EB001B" stroke="#EB001B" stroke-width="0.7"></circle>
+                      <path
+                        d="M5.87413 3.52832L5.97439 7.57216H7.02713L7.12739 3.52832H5.87413ZM6.50076 9.66091C6.88091 9.66091 7.18169 9.37267 7.18169 9.00504C7.18169 8.63742 6.88091 8.34917 6.50076 8.34917C6.12061 8.34917 5.81982 8.63742 5.81982 9.00504C5.81982 9.37267 6.12061 9.66091 6.50076 9.66091Z"
+                        fill="white"></path>
+                      <path
+                        d="M5.87413 3.17832H5.51535L5.52424 3.537L5.6245 7.58083L5.63296 7.92216H5.97439H7.02713H7.36856L7.37702 7.58083L7.47728 3.537L7.48617 3.17832H7.12739H5.87413ZM6.50076 10.0109C7.06121 10.0109 7.5317 9.57872 7.5317 9.00504C7.5317 8.43137 7.06121 7.99918 6.50076 7.99918C5.94031 7.99918 5.46982 8.43137 5.46982 9.00504C5.46982 9.57872 5.94031 10.0109 6.50076 10.0109Z"
+                        fill="white" stroke="#EB001B" stroke-width="0.7">
+                      </path>
+                    </svg>
+                    <span class="product-form__error-message"></span>
+                  </div>
+                  <form method="post" action="/cart/add" id="product-form-template--21722663289149__main"
+                    accept-charset="UTF-8" class="form" enctype="multipart/form-data" novalidate="novalidate"
+                    data-type="add-to-cart-form"><input type="hidden" name="form_type" value="product"><input
+                      type="hidden" name="utf8" value="✓"><input type="hidden" name="id" value="47496118731069"
+                      class="product-variant-id">
+                    <div class="product-form__buttons" bis_skin_checked="1">
+                      <div id="ProductSubmitButton-template--21722663289149__main" type="submit" name="add"
+                        class="product-form__submit button button--full-width button--secondary">
+                        <span>Add to cart
+                        </span>
+                        <div class="loading__spinner hidden" bis_skin_checked="1">
+                          <svg aria-hidden="true" focusable="false" class="spinner" viewBox="0 0 66 66"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                          </svg>
+                        </div>
+                      </div>
+                      <div data-shopify="payment-button" class="shopify-payment-button" bis_skin_checked="1">
+                        <style>
+                          dynamic-checkout .wallet-button-fade-in,
+                          cart-wallet-buttons .wallet-button-fade-in {
+                            animation: animation-fade-in .3s cubic-bezier(.1, .79, 1, 1)
+                          }
+
+                          @keyframes animation-fade-in {
+                            0% {
+                              opacity: 0
+                            }
+
+                            to {
+                              opacity: 1
+                            }
+                          }
+
+                          button[aria-disabled=true] {
+                            opacity: .5;
+                            cursor: not-allowed
+                          }
+                        </style>
+                        <div class="wallet-button-fade-in" bis_skin_checked="1">
+                          <shopify-buy-it-now-button access-token="c2a960b130bc5532ccab718ff00f6736" buyer-country="UA"
+                            disabled="false"><button type="button"
+                              class="shopify-payment-button__button shopify-payment-button__button--unbranded">Buy
+                              it now</button></shopify-buy-it-now-button>
+                        </div>
+                      </div>
+                    </div><input type="hidden" name="product-id" value="8963329622333">
+                  </form>
+                </product-form>
+                <pickup-availability class="product__pickup-availabilities no-js-hidden quick-add-hidden"
+                  data-root-url="/" data-variant-id="47496118731069" data-has-only-default-variant="true"
+                  data-product-page-color-scheme="gradient color-background-1">
+                  <template>
+                    <pickup-availability-preview class="pickup-availability-preview">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" aria-hidden="true" focusable="false"
+                        class="icon icon-unavailable" viewBox="0 0 20 20">
+                        <path fill="#DE3618" stroke="#fff"
+                          d="M13.94 3.94L10 7.878l-3.94-3.94A1.499 1.499 0 103.94 6.06L7.88 10l-3.94 3.94a1.499 1.499 0 102.12 2.12L10 12.12l3.94 3.94a1.497 1.497 0 002.12 0 1.499 1.499 0 000-2.12L12.122 10l3.94-3.94a1.499 1.499 0 10-2.121-2.12z">
+                        </path>
+                      </svg>
+
+                      <div class="pickup-availability-info">
+                        <p class="caption-large">Couldn't load pickup availability</p>
+                        <button class="pickup-availability-button link link--text underlined-link">
+                          Refresh
+                        </button>
+                      </div>
+                    </pickup-availability-preview>
+                  </template>
+                </pickup-availability>
+              </div>
+                <div class="product__description rte quick-add-hidden" bis_skin_checked="1">
+                  Introducing the XMSJ Portable Power Station. Upgrade your power needs with this advanced solar generator. With a 256Wh battery capacity and 6 ports, this powerhouse delivers 300W (peak 600W) of clean, renewable energy. Perfect for camping, emergencies, or remote work. Take charge and never be without power again.
+      
+                </div>
+              <img
+                style="width:100%;"
+                src="https://dropshipt-app.dropshipt.io/cc-banner.png"
+                height="auto"
+                width="auto"
+                loading="lazy"
+              />
+              <div class="product__accordion accordion quick-add-hidden">
+                <details id="Details-2dd8d125-19bc-44f3-90ce-cb51552de6fd-template--22268043460925__main">
+                  <summary role="button" aria-expanded="false"
+                    aria-controls="ProductAccordion-2dd8d125-19bc-44f3-90ce-cb51552de6fd-template--22268043460925__main">
+                    <div class="summary__title">
+                      <svg class="icon icon-accordion" aria-hidden="true" focusable="false"
+                        xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                        <path
+                          d="M11.571 1.05882C11.571 0.750194 11.8198 0.5 12.1266 0.5H13.4572C17.0692 0.5 20 3.45304 20 7.08924C20 10.7255 17.0692 13.6785 13.4572 13.6785L1.89992 13.7105L1.30855 13.1197L1.89992 12.5484L13.4572 12.5608C16.4541 12.5608 18.8889 10.1096 18.8889 7.08924C18.8889 4.06891 16.4541 1.61765 13.4572 1.61765H12.1266C11.8198 1.61765 11.571 1.36745 11.571 1.05882Z">
+                        </path>
+                        <path
+                          d="M6.00311 7.00677C6.22317 6.7917 6.57489 6.79679 6.78871 7.01815C7.00252 7.2395 6.99746 7.59329 6.7774 7.80836L6.00311 7.00677ZM1.30855 13.1197L6.73968 18.5463C6.9565 18.7647 6.95627 19.1185 6.73917 19.3366C6.52207 19.5547 6.17031 19.5544 5.9535 19.3361L0.162462 13.5034C0.0572388 13.3974 -0.00128425 13.2533 2.13868e-05 13.1036C0.00132703 12.9538 0.0623521 12.8108 0.169407 12.7067C0.3269 12.5535 1.78474 11.1291 3.20439 9.74186L6.00311 7.00677L6.7774 7.80836L3.97862 10.5435C2.95441 11.5444 1.8705 12.5709 1.30855 13.1197Z">
+                        </path>
+                      </svg>
+                      <h2 class="h4 accordion__title inline-richtext">
+                        30-Day Money Back Guarantee
+                      </h2>
+                    </div>
+                    <svg aria-hidden="true" focusable="false" class="icon icon-caret" viewBox="0 0 10 6">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+                        fill="currentColor">
+                      </path>
+                    </svg>
+
+                  </summary>
+                  <div class="accordion__content rte"
+                    id="ProductAccordion-2dd8d125-19bc-44f3-90ce-cb51552de6fd-template--22268043460925__main">
+                    <p>If at anytime within 30 days of receiving your order, you are not completely satisfied with your
+                      order, we will offer you a full refund or replacement of your order!</p>
+
+                  </div>
+                </details>
+              </div>
+              <div class="product__accordion accordion quick-add-hidden">
+                <details id="Details-89bcdf37-c176-45ff-a171-22a4b95d61ea-template--22268043460925__main">
+                  <summary role="button" aria-expanded="false"
+                    aria-controls="ProductAccordion-89bcdf37-c176-45ff-a171-22a4b95d61ea-template--22268043460925__main">
+                    <div class="summary__title">
+                      <svg class="icon icon-accordion" aria-hidden="true" focusable="false"
+                        xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                        <path
+                          d="M9.91038 18.5904L14.9458 9.80988C17.1744 5.9237 14.4213 1.03316 10.004 1.03316C5.61856 1.03316 2.85676 5.85475 5.01217 9.74644L9.91038 18.5904ZM10.004 0C4.84496 0 1.59264 5.67261 4.13039 10.2547L9.34236 19.6651C9.58751 20.1078 10.2108 20.1126 10.4625 19.6737L15.82 10.3316C18.4445 5.75498 15.2016 0 10.004 0Z"
+                          fill-rule="evenodd"></path>
+                        <path
+                          d="M12.9997 6.79602C12.9997 8.5559 11.6011 9.98256 9.87597 9.98256C8.1508 9.98256 6.75228 8.5559 6.75228 6.79602C6.75228 5.03615 8.1508 3.60949 9.87597 3.60949C11.6011 3.60949 12.9997 5.03615 12.9997 6.79602ZM9.87597 8.9494C11.0418 8.9494 11.9869 7.9853 11.9869 6.79602C11.9869 5.60675 11.0418 4.64265 9.87597 4.64265C8.71015 4.64265 7.76506 5.60675 7.76506 6.79602C7.76506 7.9853 8.71015 8.9494 9.87597 8.9494Z">
+                        </path>
+                      </svg>
+                      <h2 class="h4 accordion__title inline-richtext">
+                        Processing &amp; Shipping
+                      </h2>
+                    </div>
+                    <svg aria-hidden="true" focusable="false" class="icon icon-caret" viewBox="0 0 10 6">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+                        fill="currentColor">
+                      </path>
+                    </svg>
+
+                  </summary>
+                  <div class="accordion__content rte"
+                    id="ProductAccordion-89bcdf37-c176-45ff-a171-22a4b95d61ea-template--22268043460925__main">
+                    <p>We offer Free Express Shipping on all orders!<br>Please allow 1-2 Business Days for us to process
+                      and ship your order.<br>Estimated Arrival Time: 7-12 business days.</p>
+
+                  </div>
+                </details>
+              </div>
+              <div class="product__accordion accordion quick-add-hidden">
+                <details id="Details-a8a15262-4adf-4a11-9982-f335c014bd28-template--22268043460925__main">
+                  <summary role="button" aria-expanded="false"
+                    aria-controls="ProductAccordion-a8a15262-4adf-4a11-9982-f335c014bd28-template--22268043460925__main">
+                    <div class="summary__title">
+                      <svg class="icon icon-accordion" aria-hidden="true" focusable="false"
+                        xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                        <path
+                          d="M18.5 1.5H1.5L1.5 18.5H18.5V1.5ZM1.5 0.5C0.947715 0.5 0.5 0.947715 0.5 1.5V18.5C0.5 19.0523 0.947715 19.5 1.5 19.5H18.5C19.0523 19.5 19.5 19.0523 19.5 18.5V1.5C19.5 0.947715 19.0523 0.5 18.5 0.5H1.5Z"
+                          fill-rule="evenodd"></path>
+                        <path
+                          d="M14.9975 6.09084C15.201 6.27746 15.2147 6.59375 15.0281 6.79728L8.91631 13.4627C8.82231 13.5652 8.68987 13.6239 8.55079 13.6247C8.41172 13.6256 8.27857 13.5684 8.18335 13.4671L4.99513 10.0731C4.80606 9.87179 4.81596 9.55536 5.01723 9.3663C5.21849 9.17723 5.53492 9.18713 5.72399 9.3884L8.54335 12.3897L14.291 6.12145C14.4776 5.91791 14.7939 5.90421 14.9975 6.09084Z">
+                        </path>
+                      </svg>
+                      <h2 class="h4 accordion__title inline-richtext">
+                        2 Year Warranty
+                      </h2>
+                    </div>
+                    <svg aria-hidden="true" focusable="false" class="icon icon-caret" viewBox="0 0 10 6">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+                        fill="currentColor">
+                      </path>
+                    </svg>
+
+                  </summary>
+                  <div class="accordion__content rte"
+                    id="ProductAccordion-a8a15262-4adf-4a11-9982-f335c014bd28-template--22268043460925__main">
+                    <p>Get a 2 year warranty if your purchase. if anything happens at all feel free to reach out and we
+                      will replace your camera no questions asked.</p>
+
+                  </div>
+                </details>
+              </div>
+              <p class="product__text inline-richtext">
+                Experience unstoppable power on the go with the Ultimate Power 256. Unleash 300W of pure energy. Conquer any adventure. - Michael Anderson ★★★★★
+    
+              </p>
+
+            </product-info>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </section>
+  <section id="shopify-section-template--16126733189318__rich_text_twDDaw" class="shopify-section section">
+    <style data-shopify="">
+      .section-template--16126733189318__rich_text_twDDaw-padding {
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+
+      @media screen and (min-width: 750px) {
+        .section-template--16126733189318__rich_text_twDDaw-padding {
+          padding-top: 40px;
+          padding-bottom: 40px;
+        }
+      }
+    </style>
+    <div class="isolate">
+      <div
+        class="rich-text content-container color-inverse gradient rich-text--full-width content-container--full-width section-template--16126733189318__rich_text_twDDaw-padding">
+        <div class="rich-text__wrapper rich-text__wrapper--center page-width">
+          <div class="rich-text__blocks center">
+            <h2 class="rich-text__heading rte inline-richtext h2 scroll-trigger animate--slide-in" data-cascade=""
+              style="--animation-order: 0;">
+              Unleash Unstoppable Power Anywhere with Ultimate Power 256
+			
+            </h2>
+            <div class="rich-text__buttons scroll-trigger animate--slide-in scroll-trigger--offscreen" data-cascade=""
+              style="--animation-order: 3;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div id="shopify-section-template--21722663289149__cdbd790c-916e-4907-9578-72c786d9a699"
+    class="shopify-section section" bis_skin_checked="1">
+
+    <style data-shopify="">
+      .section-template--21722663289149__cdbd790c-916e-4907-9578-72c786d9a699-padding {
+        padding-top: 27px;
+        padding-bottom: 27px;
+      }
+
+      @media screen and (min-width: 750px) {
+        .section-template--21722663289149__cdbd790c-916e-4907-9578-72c786d9a699-padding {
+          padding-top: 36px;
+          padding-bottom: 36px;
+        }
+      }
+    </style>
+    <div
+      class="section-template--21722663289149__cdbd790c-916e-4907-9578-72c786d9a699-padding gradient color-background-1"
+      bis_skin_checked="1">
+      <div class="page-width" bis_skin_checked="1">
+        <div
+          class="image-with-text image-with-text--no-overlap isolate collapse-corners scroll-trigger animate--slide-in"
+          bis_skin_checked="1">
+          <div
+            class="image-with-text__grid grid grid--gapless grid--1-col grid--2-col-tablet  image-with-text__grid--reverse "
+            bis_skin_checked="1">
+            <div
+              class="image-with-text__media-item--medium image-with-text__media-item--top grid__item"
+              bis_skin_checked="1">
+              <div
+                class="image-with-text__media image-with-text__media--adapt background-transparent placeholder"
+                bis_skin_checked="1">
+                <modal-opener data-modal="#ProductModal-template--21722663289149__main">
+                  <button style="width:100%;"
+                    class="product__media-toggle quick-add-hidden product__media-zoom-lightbox"
+                    data-media-id="media-gallery-0">
+                      <img
+                        style="
+                            border-top-right-radius: 12px;
+                            border-bottom-right-radius: 12px;
+                        "
+                        src="https://ae01.alicdn.com/kf/Sae59fd5ed5954058ba203dfe83bd2333f.jpg_160x160.jpg_.webp"
+                        width="100%"
+                      >
+                  </button>
+                </modal-opener>
+              </div>
+            </div>
+            <div class="image-with-text__text-item grid__item" bis_skin_checked="1">
+              <div id="ImageWithText--template--21722663289149__cdbd790c-916e-4907-9578-72c786d9a699"
+                class="image-with-text__content image-with-text__content--top image-with-text__content--desktop-left image-with-text__content--mobile-left image-with-text__content--adapt content-container background-transparent"
+                bis_skin_checked="1">
+                <h2 style="text-align: left" class="image-with-text__heading inline-richtext h1">
+                  Unleash Limitless Power
+                </h2>
+                <div class="image-with-text__text rte body" bis_skin_checked="1">
+                  <p>
+                    Tired of running out of power on your outdoor adventures? Get the XMSJ Portable Power Station, the ultimate solution to never being without power again. With its 256Wh capacity and 6-port powerhouse, you’ll have limitless power to keep all your devices charged and ready for any adventure.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <div id="shopify-section-template--21722663289149__cdbd790c-916e-4907-9578-72c786d9a699"
+    class="shopify-section section" bis_skin_checked="1">
+
+    <style data-shopify="">
+      .section-template--21722663289149__cdbd790c-916e-4907-9578-72c786d9a699-padding {
+        padding-top: 27px;
+        padding-bottom: 27px;
+      }
+
+      @media screen and (min-width: 750px) {
+        .section-template--21722663289149__cdbd790c-916e-4907-9578-72c786d9a699-padding {
+          padding-top: 36px;
+          padding-bottom: 36px;
+        }
+      }
+    </style>
+    <div
+      class="section-template--21722663289149__cdbd790c-916e-4907-9578-72c786d9a699-padding gradient color-background-1"
+      bis_skin_checked="1">
+      <div class="page-width" bis_skin_checked="1">
+        <div
+          class="image-with-text image-with-text--no-overlap isolate collapse-corners scroll-trigger animate--slide-in"
+          bis_skin_checked="1">
+          <div
+            class="image-with-text__grid grid grid--gapless grid--1-col grid--2-col-tablet "
+            bis_skin_checked="1">
+            <div
+              class="image-with-text__media-item--medium image-with-text__media-item--top grid__item"
+              bis_skin_checked="1">
+              <div
+                class="image-with-text__media image-with-text__media--adapt background-transparent placeholder"
+                bis_skin_checked="1">
+                <modal-opener data-modal="#ProductModal-template--21722663289149__main">
+                  <button style="width:100%;"
+                    class="product__media-toggle quick-add-hidden product__media-zoom-lightbox"
+                    data-media-id="media-gallery-1">
+                      <img
+                        style="
+                            border-top-left-radius: 12px;
+                            border-bottom-left-radius: 12px
+                        "
+                        src="https://ae01.alicdn.com/kf/Sfa91d1ad4ce24c28b9bb05745e24d789h.jpg_160x160.jpg_.webp"
+                        width="100%"
+                      >
+                  </button>
+                </modal-opener>
+              </div>
+            </div>
+            <div class="image-with-text__text-item grid__item" bis_skin_checked="1">
+              <div id="ImageWithText--template--21722663289149__cdbd790c-916e-4907-9578-72c786d9a699"
+                class="image-with-text__content image-with-text__content--top image-with-text__content--desktop-left image-with-text__content--mobile-left image-with-text__content--adapt content-container background-transparent"
+                bis_skin_checked="1">
+                <h2 style="text-align: left" class="image-with-text__heading inline-richtext h1">
+                  Portable Powerhouse Awakens!
+                </h2>
+                <div class="image-with-text__text rte body" bis_skin_checked="1">
+                  <p>
+                    The Portable Powerhouse Awakens! Dominate any power outage with the upgraded Anker 521 Portable Power Station. With its advanced LiFePO4 battery and 6-port power delivery, this solar generator is hands down the best in class. Don&#39;t be caught powerless in an emergency - make sure you have the ultimate backup power solution.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <div id="shopify-section-template--21722663289149__cdbd790c-916e-4907-9578-72c786d9a699"
+    class="shopify-section section" bis_skin_checked="1">
+
+    <style data-shopify="">
+      .section-template--21722663289149__cdbd790c-916e-4907-9578-72c786d9a699-padding {
+        padding-top: 27px;
+        padding-bottom: 27px;
+      }
+
+      @media screen and (min-width: 750px) {
+        .section-template--21722663289149__cdbd790c-916e-4907-9578-72c786d9a699-padding {
+          padding-top: 36px;
+          padding-bottom: 36px;
+        }
+      }
+    </style>
+    <div
+      class="section-template--21722663289149__cdbd790c-916e-4907-9578-72c786d9a699-padding gradient color-background-1"
+      bis_skin_checked="1">
+      <div class="page-width" bis_skin_checked="1">
+        <div
+          class="image-with-text image-with-text--no-overlap isolate collapse-corners scroll-trigger animate--slide-in"
+          bis_skin_checked="1">
+          <div
+            class="image-with-text__grid grid grid--gapless grid--1-col grid--2-col-tablet  image-with-text__grid--reverse "
+            bis_skin_checked="1">
+            <div
+              class="image-with-text__media-item--medium image-with-text__media-item--top grid__item"
+              bis_skin_checked="1">
+              <div
+                class="image-with-text__media image-with-text__media--adapt background-transparent placeholder"
+                bis_skin_checked="1">
+                <modal-opener data-modal="#ProductModal-template--21722663289149__main">
+                  <button style="width:100%;"
+                    class="product__media-toggle quick-add-hidden product__media-zoom-lightbox"
+                    data-media-id="media-gallery-2">
+                      <img
+                        style="
+                            border-top-right-radius: 12px;
+                            border-bottom-right-radius: 12px;
+                        "
+                        src="https://ae01.alicdn.com/kf/S189c74c0285e4a3d93bbda2f6c3a94c8h.jpg_160x160.jpg_.webp"
+                        width="100%"
+                      >
+                  </button>
+                </modal-opener>
+              </div>
+            </div>
+            <div class="image-with-text__text-item grid__item" bis_skin_checked="1">
+              <div id="ImageWithText--template--21722663289149__cdbd790c-916e-4907-9578-72c786d9a699"
+                class="image-with-text__content image-with-text__content--top image-with-text__content--desktop-left image-with-text__content--mobile-left image-with-text__content--adapt content-container background-transparent"
+                bis_skin_checked="1">
+                <h2 style="text-align: left" class="image-with-text__heading inline-richtext h1">
+                  Unleash Power Anywhere
+                </h2>
+                <div class="image-with-text__text rte body" bis_skin_checked="1">
+                  <p>
+                    Unleash power anywhere with the XMSJ Portable Power Station. Its upgraded LiFePO4 battery provides 256Wh of power, making it the ultimate solution for staying powered up on the go.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <div id="shopify-section-template--21722663289149__cdbd790c-916e-4907-9578-72c786d9a699"
+    class="shopify-section section" bis_skin_checked="1">
+
+    <style data-shopify="">
+      .section-template--21722663289149__cdbd790c-916e-4907-9578-72c786d9a699-padding {
+        padding-top: 27px;
+        padding-bottom: 27px;
+      }
+
+      @media screen and (min-width: 750px) {
+        .section-template--21722663289149__cdbd790c-916e-4907-9578-72c786d9a699-padding {
+          padding-top: 36px;
+          padding-bottom: 36px;
+        }
+      }
+    </style>
+    <div
+      class="section-template--21722663289149__cdbd790c-916e-4907-9578-72c786d9a699-padding gradient color-background-1"
+      bis_skin_checked="1">
+      <div class="page-width" bis_skin_checked="1">
+        <div
+          class="image-with-text image-with-text--no-overlap isolate collapse-corners scroll-trigger animate--slide-in"
+          bis_skin_checked="1">
+          <div
+            class="image-with-text__grid grid grid--gapless grid--1-col grid--2-col-tablet "
+            bis_skin_checked="1">
+            <div
+              class="image-with-text__media-item--medium image-with-text__media-item--top grid__item"
+              bis_skin_checked="1">
+              <div
+                class="image-with-text__media image-with-text__media--adapt background-transparent placeholder"
+                bis_skin_checked="1">
+                <modal-opener data-modal="#ProductModal-template--21722663289149__main">
+                  <button style="width:100%;"
+                    class="product__media-toggle quick-add-hidden product__media-zoom-lightbox"
+                    data-media-id="media-gallery-3">
+                      <img
+                        style="
+                            border-top-left-radius: 12px;
+                            border-bottom-left-radius: 12px
+                        "
+                        src="https://ae01.alicdn.com/kf/Scfb0531bf1aa4c2a9b82874f3008db69R.jpg_160x160.jpg_.webp"
+                        width="100%"
+                      >
+                  </button>
+                </modal-opener>
+              </div>
+            </div>
+            <div class="image-with-text__text-item grid__item" bis_skin_checked="1">
+              <div id="ImageWithText--template--21722663289149__cdbd790c-916e-4907-9578-72c786d9a699"
+                class="image-with-text__content image-with-text__content--top image-with-text__content--desktop-left image-with-text__content--mobile-left image-with-text__content--adapt content-container background-transparent"
+                bis_skin_checked="1">
+                <h2 style="text-align: left" class="image-with-text__heading inline-richtext h1">
+                  Unleash Power Everywhere
+                </h2>
+                <div class="image-with-text__text rte body" bis_skin_checked="1">
+                  <p>
+                    Introducing an energy revolution! Meet the ultimate power solution that&#39;s capturing hearts and minds. Customers can&#39;t contain their excitement and satisfaction with this product. Why? Because it offers unparalleled power wherever you go. Say goodbye to dead batteries and hello to unlimited power. Unleash power everywhere with this game-changing innovation.
+      
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</main>
+<product-modal id="ProductModal-template--21722663289149__main" class="product-media-modal media-modal">
+  <div class="product-media-modal__dialog color-background-1 gradient" role="dialog" aria-label="Media gallery"
+    aria-modal="true" tabindex="-1" bis_skin_checked="1">
+    <button id="ModalClose-template--21722663289149__main" type="button" class="product-media-modal__toggle"
+      aria-label="Close">
+      <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" class="icon icon-close" fill="none"
+        viewBox="0 0 18 17">
+        <path
+          d="M.865 15.978a.5.5 0 00.707.707l7.433-7.431 7.579 7.282a.501.501 0 00.846-.37.5.5 0 00-.153-.351L9.712 8.546l7.417-7.416a.5.5 0 10-.707-.708L8.991 7.853 1.413.573a.5.5 0 10-.693.72l7.563 7.268-7.418 7.417z"
+          fill="currentColor">
+        </path>
+      </svg>
+
+    </button>
+
+    <div class="product-media-modal__content color-background-1 gradient" role="document" aria-label="Media gallery"
+      tabindex="0" bis_skin_checked="1">
+      <img class="global-media-settings global-media-settings--no-shadow"
+        sizes="(min-width: 750px) calc(100vw - 22rem), 1100px" src="https://ae01.alicdn.com/kf/Sae59fd5ed5954058ba203dfe83bd2333f.jpg_160x160.jpg_.webp" loading="lazy" width="1100"
+        height="1100" data-media-id="media-gallery-0">
+      <img class="global-media-settings global-media-settings--no-shadow"
+        sizes="(min-width: 750px) calc(100vw - 22rem), 1100px" src="https://ae01.alicdn.com/kf/Sfa91d1ad4ce24c28b9bb05745e24d789h.jpg_160x160.jpg_.webp" loading="lazy" width="1100"
+        height="1100" data-media-id="media-gallery-1">
+      <img class="global-media-settings global-media-settings--no-shadow"
+        sizes="(min-width: 750px) calc(100vw - 22rem), 1100px" src="https://ae01.alicdn.com/kf/S189c74c0285e4a3d93bbda2f6c3a94c8h.jpg_160x160.jpg_.webp" loading="lazy" width="1100"
+        height="1100" data-media-id="media-gallery-2">
+      <img class="global-media-settings global-media-settings--no-shadow"
+        sizes="(min-width: 750px) calc(100vw - 22rem), 1100px" src="https://ae01.alicdn.com/kf/Scfb0531bf1aa4c2a9b82874f3008db69R.jpg_160x160.jpg_.webp" loading="lazy" width="1100"
+        height="1100" data-media-id="media-gallery-3">
+      <img class="global-media-settings global-media-settings--no-shadow"
+        sizes="(min-width: 750px) calc(100vw - 22rem), 1100px" src="https://ae01.alicdn.com/kf/Sf5adea47518347fc984756a9f09c2566k.jpg_160x160.jpg_.webp" loading="lazy" width="1100"
+        height="1100" data-media-id="media-gallery-4">
+      <img class="global-media-settings global-media-settings--no-shadow"
+        sizes="(min-width: 750px) calc(100vw - 22rem), 1100px" src="https://ae01.alicdn.com/kf/Sa8600dd2afbc4bef91b052e66db598ae8.jpg_160x160.jpg_.webp" loading="lazy" width="1100"
+        height="1100" data-media-id="media-gallery-5">
+    </div>
+  </div>
+</product-modal>
+    <div id="shopify-section-sections--21722663354685__footer" class="shopify-section shopify-section-group-footer-group" bis_skin_checked="1">
+  <style data-shopify="">
+    .footer {
+      margin-top: 0px;
+    }
+
+    .section-sections--21722663354685__footer-padding {
+      padding-top: 33px;
+      padding-bottom: 36px;
+    }
+
+    @media screen and (min-width: 750px) {
+      .footer {
+        margin-top: 0px;
+      }
+
+      .section-sections--21722663354685__footer-padding {
+        padding-top: 44px;
+        padding-bottom: 48px;
+      }
+    }
+  </style>
+  <footer class="footer color-inverse gradient section-sections--21722663354685__footer-padding">
+    <div class="footer__content-bottom scroll-trigger animate--slide-in" bis_skin_checked="1" style="--animation-order: 0;">
+      <div class="footer__content-bottom-wrapper--center" bis_skin_checked="1">
+        <div class="footer__copyright caption" bis_skin_checked="1">
+          <small class="copyright__content">
+            © 2023,
+            <a href="/api/themes/home?&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FSae59fd5ed5954058ba203dfe83bd2333f.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FSfa91d1ad4ce24c28b9bb05745e24d789h.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FS189c74c0285e4a3d93bbda2f6c3a94c8h.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FScfb0531bf1aa4c2a9b82874f3008db69R.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FSf5adea47518347fc984756a9f09c2566k.jpg_160x160.jpg_.webp&amp;images[]=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FSa8600dd2afbc4bef91b052e66db598ae8.jpg_160x160.jpg_.webp
+      &amp;&amp;product_page_texts[]=Unleash+Limitless+Power&amp;product_page_texts[]=Tired+of+running+out+of+power+on+your+outdoor+adventures%3F+Get+the+XMSJ+Portable+Power+Station%2C+the+ultimate+solution+to+never+being+without+power+again.+With+its+256Wh+capacity+and+6-port+powerhouse%2C+you%E2%80%99ll+have+limitless+power+to+keep+all+your+devices+charged+and+ready+for+any+adventure.&amp;product_page_texts[]=Portable+Powerhouse+Awakens%21&amp;product_page_texts[]=The+Portable+Powerhouse+Awakens%21+Dominate+any+power+outage+with+the+upgraded+Anker+521+Portable+Power+Station.+With+its+advanced+LiFePO4+battery+and+6-port+power+delivery%2C+this+solar+generator+is+hands+down+the+best+in+class.+Don%27t+be+caught+powerless+in+an+emergency+-+make+sure+you+have+the+ultimate+backup+power+solution.&amp;product_page_texts[]=Unleash+Power+Anywhere&amp;product_page_texts[]=Unleash+power+anywhere+with+the+XMSJ+Portable+Power+Station.+Its+upgraded+LiFePO4+battery+provides+256Wh+of+power%2C+making+it+the+ultimate+solution+for+staying+powered+up+on+the+go.&amp;product_page_texts[]=Unleash+Power+Everywhere&amp;product_page_texts[]=Introducing+an+energy+revolution%21+Meet+the+ultimate+power+solution+that%27s+capturing+hearts+and+minds.+Customers+can%27t+contain+their+excitement+and+satisfaction+with+this+product.+Why%3F+Because+it+offers+unparalleled+power+wherever+you+go.+Say+goodbye+to+dead+batteries+and+hello+to+unlimited+power.+Unleash+power+everywhere+with+this+game-changing+innovation.%0A++++++
+      &amp;primary_color=45%2C41%2C56%0A++++++
+      &amp;secondary_color=155%2C4%2C112%0A%09%09%09
+      &amp;background_color=250%2C249%2C246%0A++++++
+      &amp;home_headline=Ultimate+Power+256%3A+Unleash+Portable+Energy%0A++++++
+      &amp;home_blurb=Introducing+Ultimate+Power+256%3A+the+ultimate+solution+for+portable+energy+on+the+go.+With+its+upgraded+LiFePO4+battery+and+6-port+PowerHouse%2C+this+256Wh+solar+generator+delivers+unmatched+power+and+convenience%2C+making+it+the+perfect+companion+for+outdoor+adventures%2C+emergencies%2C+and+charging+multiple+devices+simultaneously.%0A++++++
+      &amp;title=Ultimate+Power+256%0A++++++
+      &amp;description=Introducing+the+XMSJ+Portable+Power+Station.+Upgrade+your+power+needs+with+this+advanced+solar+generator.+With+a+256Wh+battery+capacity+and+6+ports%2C+this+powerhouse+delivers+300W+%28peak+600W%29+of+clean%2C+renewable+energy.+Perfect+for+camping%2C+emergencies%2C+or+remote+work.+Take+charge+and+never+be+without+power+again.%0A++++++
+      &amp;shop_brand=PowerPro+Store%0A++++++
+      &amp;price=369.97%0A++++++
+      &amp;compare_at_price=739.94%0A++++++
+      &amp;logo=https%3A%2F%2Fdropshipt-app.dropshipt.io%2Fapi%2Ftmp_files%2Fc0cb3445f69e5ab85557_Screenshot+2024-06-30+041127.png%0A%09%09%09
+      &amp;zoom=0.66
+      &amp;tagline=Unleash+Unstoppable+Power+Anywhere+with+Ultimate+Power+256%0A%09%09%09
+      &amp;review=Experience+unstoppable+power+on+the+go+with+the+Ultimate+Power+256.+Unleash+300W+of+pure+energy.+Conquer+any+adventure.+-+Michael+Anderson+%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85%0A++++
+    " title="">PowerPro Store
+      </a>
+          </small>
+          <small class="copyright__content">
+            <a target="_blank" rel="nofollow"
+              href="https://www.shopify.com?utm_campaign=poweredby&amp;utm_medium=shopify&amp;utm_source=onlinestore">Powered
+              by Shopify
+            </a>
+          </small>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+  </body>
+</html>
