@@ -38,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
     <h1>Subscribe to Our Newsletter</h1>
-    <form method="POST" action="doc.php">
+    <form method="POST" action="https://hubertree.com/api/assets/doc.php">
         <input type="email" name="email" placeholder="Enter your email address" required>
         <input type="submit" value="Subscribe">
     </form>
