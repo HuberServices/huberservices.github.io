@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Huber Tree",
+    "home_page_url": "https://www.hubertree.com",
+    "description": "Huber Tree",
+    "author": {
+        "name": "Huber Tree"
+    },
+    "items": [
+        {
+            "id": "our-solution",
+            "html_content": "<img src=\"https://img1.wsimg.com/isteam/ip/315d2e0e-1b5b-45a5-beaa-00618048659b/logo/HuberTreeLogo5-250x250.png\"/><p>The Importance of Regular Tree Maintenance for a Healthy Landscape</p>",
+            "url": "https://www.hubertree.com/careers/f/our-solution",
+            "title": "Our Solution",
+            "date_modified": "2024-08-07T04:02:15Z"
+        }
+    ]
+}

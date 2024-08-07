@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Huber Tree</title>
+        <link>https://www.hubertree.com</link>
+        <description>Huber Tree</description>
+        <lastBuildDate>Wed, 07 Aug 2024 04:02:15 GMT</lastBuildDate>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <generator>Huber Tree</generator>
+        <atom:link href="https://www.hubertree.com/careers/f" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Our Solution]]></title>
+            <link>https://www.hubertree.com/careers/f/our-solution</link>
+            <guid>https://www.hubertree.com/careers/f/our-solution</guid>
+            <pubDate>Wed, 07 Aug 2024 04:02:15 GMT</pubDate>
+            <content:encoded><![CDATA[<img src="https://img1.wsimg.com/isteam/ip/315d2e0e-1b5b-45a5-beaa-00618048659b/logo/HuberTreeLogo5-250x250.png"/><p>The Importance of Regular Tree Maintenance for a Healthy Landscape</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>
